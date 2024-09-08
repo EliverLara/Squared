@@ -43,15 +43,15 @@ levelbar {
 
     &.high,
     &:not(.empty) {
-      background-color: $cyan;
+      background-color: $lime;
 
-      &:backdrop { border-color: $cyan; }
+      &:backdrop { border-color: $lime; }
     }
 
     &.full {
-      background-color: $success_color;
+      background-color: $red;
 
-      &:backdrop { border-color: $success_color; };
+      &:backdrop { border-color: $red; };
     }
 
     &.empty {

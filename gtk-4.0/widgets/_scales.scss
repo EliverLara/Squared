@@ -19,7 +19,7 @@
 
 %scale_highlight {
   border: none;
-  background-color: transparentize(#fff, 0.3);
+  background-color: $teal;
   border-radius: 3px;
   margin: 0;
 
@@ -30,8 +30,8 @@
 
   &:backdrop,
   &:active:backdrop {
-    border-color: lighten(transparentize(#fff, 0.3), 5%);
-    background-color: lighten(transparentize(#fff, 0.3), 5%);
+    border-color: lighten($teal, 5%);
+    background-color: lighten($teal, 5%);
     &:disabled {
       background-color: $scale_disabled_bg;
     }
@@ -67,13 +67,13 @@ scale {
     background-color: white;
     box-shadow: inset 0 1px $red,
                 0px 0px 1px 1px rgba(0,0,0,0.1);
-    border-radius: 12px;
+    border-radius: 0px;
 
     transition: $button_transition;
     transition-property: background, border, box-shadow;
 
     &:active {
-      background-color: transparentize(#fff, 0.3);
+      background-color: $teal;
 
       &:disabled {
         background-color: $insensitive_bg_color;
@@ -145,22 +145,22 @@ scale {
     }
   }
 
-  $_scale_bg: if($variant == 'light', $btn_bg, #fff);
+  $_scale_bg: darken($teal, 5%);
   $_scale_disabled_bg: darken($_scale_bg, 15%);
   slider {
-    border-color: transparentize(#000, 0.8);
+    border-color: $borders_color;
     border-width: 0px;
     border-style: solid;
-    border-radius: 12px;
+    border-radius: 0px;
 
     background-color: $_scale_bg;
     box-shadow: inset 0 1px $top_highlight,
-                0px 0px 1px 1px rgba(0,0,0, 0.2),
-                0px 0px 5px rgba(0,0,0, 0.4);
+                0px 0px 1px 1px rgba(0, 0, 0, 0.507),
+                0px 0px 5px rgba(0,0,0, 0.5);
 
     &:hover { 
       @include button(hover-alt, $edge: $shadow_color);
-      box-shadow: 0px 0px 10px transparentize(#fff, 0.3);
+      box-shadow: 0px 0px 10px $teal;
     }
 
     &:active { border-color: $selected_borders_color; }
@@ -260,7 +260,7 @@ scale {
               min-width: 16px;
               margin: -7px;
              // border: 1px solid red;
-              border-radius: 50%;
+              border-radius: 0px;
 
               background-color: $_scale_bg;
               box-shadow: inset 0 1px $top_highlight,

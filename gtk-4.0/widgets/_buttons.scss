@@ -207,13 +207,13 @@ button {
   }
 
   // Suggested and Destructive Action buttons
-  @each $b_type, $b_color in (suggested-action, $cyan),
-                             (destructive-action, $destructive_color) {
+  @each $b_type, $b_color in (suggested-action, $blue),
+                             (destructive-action, $red) {
     &.#{$b_type} {
-      border: none;
+      //border: none;
       
+      @include button(rounded, $b_color, white);
       @if $b_type ==  suggested-action {
-        @include button(rounded, $b_color, white);
       } @else {
         @include button(rounded-red, $b_color, white); 
       }
@@ -420,7 +420,7 @@ toolbar.inline-toolbar toolbutton:backdrop {
 }
 
 %linked_middle {
-  border: 1px solid $borders_color;
+ // border: 1px solid $red;
   border-radius: 0;
   border-right-style: none;
   box-shadow: none;

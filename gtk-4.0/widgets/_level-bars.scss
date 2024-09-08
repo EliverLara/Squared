@@ -55,7 +55,7 @@ levelbar {
 
   // level bar colours
   > trough > block {
-    border: 1px solid;
+    border: 0px solid ;
 
     &.low {
       border-color: $warning_color;

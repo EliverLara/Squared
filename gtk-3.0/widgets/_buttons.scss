@@ -25,7 +25,7 @@ $_dot_color: if($variant=='light', $selected_bg_color,
 %button,
 button {
   @at-root %button_basic, & {
-    min-height: 20px;
+    min-height: 22px;
     min-width: 16px;
     padding: 4px 6px;
     border-radius: 6px;
@@ -219,7 +219,7 @@ button {
 
   // Suggested and Destructive Action buttons
   @each $b_type, $b_color in (suggested-action, $blue),
-                             (destructive-action, $destructive_color) {
+                             (destructive-action, $red) {
     &.#{$b_type} {
       border-radius: 6px;
       @if $b_type ==  suggested-action {

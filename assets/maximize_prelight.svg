@@ -25,17 +25,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="45.254834"
-     inkscape:cx="7.1926018"
-     inkscape:cy="7.9991455"
+     inkscape:cx="7.2036503"
+     inkscape:cy="8.0212425"
      inkscape:document-units="px"
-     inkscape:current-layer="g4092"
+     inkscape:current-layer="g4147"
      showgrid="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1012"
+     inkscape:window-width="2560"
+     inkscape:window-height="1372"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -68,7 +68,7 @@
          id="g4092">
         <path
            id="path4289"
-           style="fill:#2a9d8f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           style="fill:#9dbc89;fill-opacity:1;fill-rule:evenodd;stroke:none"
            d="m 558.7771,-37.935173 c 305.45604,0 553.0815,247.625853 553.0815,553.085763 0,305.46122 -247.62546,553.08661 -553.0815,553.08661 -305.46509,0 -553.091393,-247.62539 -553.091393,-553.08661 0,-305.45991 247.626303,-553.085763 553.091393,-553.085763"
            inkscape:connector-curvature="0" />
         <g
@@ -80,13 +80,16 @@
           <path
              inkscape:connector-curvature="0"
              d="m 433.00051,40.81737 c 215.984,0 391.074,175.0938 391.074,391.0778 0,215.985 -175.09,391.075 -391.074,391.075 -215.988,0 -391.078202,-175.09 -391.078202,-391.075 0,-215.984 175.090202,-391.0778 391.078202,-391.0778"
-             style="fill:#2a9d8f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             style="fill:#9dbc89;fill-opacity:1;fill-rule:evenodd;stroke:none"
              id="path4291" />
           <path
              inkscape:connector-curvature="0"
              d="m 317.36351,650.00117 267.199,0 c 35.579,0 64.692,-29.113 64.692,-64.695 l 0,-267.196 -331.891,331.891 z m 232.324,-436.211 -268.253,0 c -35.583,0 -64.692,29.109 -64.692,64.691 l 0,268.254 332.945,-332.945"
              style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
-             id="path4293" />
+             id="path4293"
+             inkscape:export-filename="maximize_prelight.png"
+             inkscape:export-xdpi="109.71429"
+             inkscape:export-ydpi="109.71429" />
         </g>
       </g>
     </g>

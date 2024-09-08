@@ -30,7 +30,7 @@ spinbutton {
     > button.image-button.up:not(.flat),
     > button.image-button.down:not(.flat) {
       min-height: 16px;
-      margin: 0;
+      margin: 1px 0;
       padding-bottom: 0;
       padding-top: 0;
       color: mix($fg_color, $base_color, 90%);
@@ -45,7 +45,7 @@ spinbutton {
 
       &:hover {
         color: $fg_color;
-        background-color: darken($bg_color,5%);
+        background-color: darken($bg_color, 1%);
       }
 
       &:disabled {
@@ -54,8 +54,8 @@ spinbutton {
       }
 
       &:active {
-        background-color: transparentize(black, 0.9);
-        box-shadow: inset 0 2px 3px -1px transparentize(black, 0.8);
+        color: $fg_color;
+        background-color: darken($bg_color, 3%);
       }
 
       &:dir(ltr):last-child { border-radius: 0 6px 6px 0; }

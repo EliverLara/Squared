@@ -6,7 +6,7 @@ notebook {
     padding: 1px;
     border-color: $borders_color;
     border-width: 1px;
-    background-color: $base_color;
+    background-color: $bg_color;
 
     &:backdrop {
       border-color: $backdrop_borders_color;
@@ -300,7 +300,7 @@ tabbar {
   }
 
   tabbox {
-    background-color:  mix($base_color, $headerbar_color, 30%);
+    background-color: $bg_color;
     padding: 0px;
     color :$fg_color;
     &:backdrop {
@@ -314,7 +314,7 @@ tabbar {
     > tabboxchild > tab {
       border-radius: 0;
       &:checked, &:selected { 
-        background: $base_color; 
+        background: lighten($base_color, 2%); 
         color: $fg_color;
       }
     }

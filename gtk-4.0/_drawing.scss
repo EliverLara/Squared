@@ -35,9 +35,9 @@
 
 // entries
 
-@function entry_focus_border($fc:$selected_bg_color) {
-  @if $variant == 'light' { @return $blue; }
-  @else { @return if($fc==$selected_bg_color, $blue, darken($fc, 35%)); }
+@function entry_focus_border($fc:$teal) {
+  @if $variant == 'light' { @return $teal; }
+  @else { @return if($fc==$selected_bg_color, $teal, darken($fc, 35%)); }
 }
 
 
@@ -74,7 +74,7 @@
   }
   @if $t==focus {
     border-color: entry_focus_border($fc);
-    box-shadow: 0px 0px 1px 1px $blue inset;
+    box-shadow: 0px 0px 1px 1px $teal inset;
   }
   @if $t==insensitive {
     color: $insensitive_fg_color;
@@ -209,14 +209,14 @@
   //  border: 1px solid $c;
     color: white;
     border-radius: 6px;
-    background: $suggested_bg_color; }
+    background-color: $blue; }
 
   @if $t==rounded-red {
     box-shadow: none;
   //  border: 1px solid $c;
     color: white;
     border-radius: 6px;
-    background: $destructive_bg_color; 
+    background-color: $red; 
   }
   
   @if $t==normal {
@@ -229,6 +229,8 @@
     background-color: $btn_bg ;//mix($bg_color, $base_color, 15%);
     text-shadow: none;
     border: 1px solid $borders_color;
+    @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
+
   }
 
   @else if $t==hover {
@@ -239,7 +241,7 @@
     outline-color: transparentize($tc, 0.7);
     background-color: $c;
     text-shadow: none;
-    //@include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
+    @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
   }
 
 @else if $t==backdrop-header {
@@ -260,9 +262,10 @@
   //
   color: $tc;
   outline-color: transparentize($tc, 0.7);
-  background: if($c==$base_color, $selected_bg_color, lighten($c, 12%));
+  background: $selected_bg_color; //($c==$base_color, $selected_bg_color, lighten($c, 12%));
   text-shadow: none;
- // @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
+  font-weight: bold;
+  @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
 }
   @else if $t==insensitive {
   //

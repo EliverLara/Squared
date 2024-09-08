@@ -3,11 +3,11 @@
  ***************/
 .background {
   color: $fg_color;
-  background-color: $base_color;
+  background-color: $bg_color;
 
   &:backdrop {
     color: $backdrop_fg_color;
-    background-color: $backdrop_base_color;
+    background-color: $backdrop_bg_color;
     text-shadow: none;
     -gtk-icon-shadow: none;
   }
@@ -93,6 +93,18 @@ flowbox {
       @extend %selected_items;
 
       outline-offset: -2px;
+    }
+  }
+}
+
+gridview {
+  
+  > child {
+    padding: 6px;
+
+    box { //cells
+      border-spacing: 5px; //label separation
+      //margin: 4px;
     }
   }
 }

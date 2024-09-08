@@ -3,7 +3,7 @@
  *********/
 list, listview {
   color: $text_color;
-  background-color: lighten($base_color, 2%);
+  background-color: lighten($base_color, 1%);
   border-color: $borders_color;
 
   &:backdrop {

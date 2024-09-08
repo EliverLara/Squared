@@ -119,7 +119,7 @@ entry {
     &:focus-within {
       @include entry(focus); 
       + .popup button {
-        border-left-color: $blue;
+        border-left-color: $selected_bg_color;
       }
     }
 

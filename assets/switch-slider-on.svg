@@ -18,21 +18,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1995">
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter930"
-       x="-0.035999999"
-       width="1.072"
-       y="-0.035999999"
-       height="1.072">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.225"
-         id="feGaussianBlur932" />
-    </filter>
-  </defs>
+     id="defs1995" />
   <sodipodi:namedview
      id="namedview1993"
      pagecolor="#ffffff"
@@ -45,9 +31,9 @@
      showgrid="false"
      inkscape:zoom="32"
      inkscape:cx="-4.34375"
-     inkscape:cy="8.578125"
-     inkscape:window-width="1456"
-     inkscape:window-height="751"
+     inkscape:cy="8.59375"
+     inkscape:window-width="2560"
+     inkscape:window-height="1372"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -85,32 +71,11 @@
      id="path1989"
      style="display:none;fill:#4cffff;fill-opacity:1;stroke-width:0.888888" />
   <rect
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;isolation:isolate;fill:#000000;fill-opacity:0.1;fill-rule:nonzero;stroke:none;stroke-width:1.76471;stroke-opacity:1;marker:none;filter:url(#filter930);enable-background:new"
-     id="rect934"
-     width="15"
-     height="15"
-     x="2.0493383"
-     y="4.0342841"
-     ry="7.392344" />
-  <rect
-     ry="7.392344"
-     y="3.0342844"
-     x="2.0493383"
-     height="15"
-     width="15"
-     id="rect912"
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;isolation:isolate;fill:#000000;fill-opacity:0.2;fill-rule:nonzero;stroke:none;stroke-width:1.76471;stroke-opacity:1;marker:none;filter:url(#filter930);enable-background:new" />
-  <rect
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;isolation:isolate;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.76471;stroke-opacity:1;marker:none;enable-background:new"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;isolation:isolate;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#88b7af;stroke-width:1.26316;stroke-opacity:1;marker:none;enable-background:new"
      id="rect3872"
-     width="15"
-     height="15"
-     x="2.0493383"
-     y="2.5342844"
-     ry="7.392344" />
-  <path
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;isolation:isolate;fill:#ffffff;fill-opacity:0.2;fill-rule:nonzero;stroke:none;stroke-width:1.76471;stroke-opacity:1;marker:none;enable-background:new"
-     d="m 9.4419356,2.5342815 c -4.0953598,0 -7.3925798,3.29722 -7.3925798,7.3925798 v 0.2148397 c 0,0.1326 0.0127,0.26174 0.0195,0.39258 0.20406,-3.9101895 3.41029,-6.9999995 7.3730498,-6.9999995 h 0.2148399 c 3.9627585,0 7.1689885,3.08981 7.3730485,6.9999995 0.007,-0.13084 0.0195,-0.25998 0.0195,-0.39258 V 9.9268613 c 0,-4.0953598 -3.29722,-7.3925798 -7.3925785,-7.3925798 z"
-     id="rect936"
-     inkscape:connector-curvature="0" />
+     width="10.736839"
+     height="10.736839"
+     x="4.1315804"
+     y="4.6315804"
+     ry="5.2913609" />
 </svg>
