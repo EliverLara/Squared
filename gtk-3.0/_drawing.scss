@@ -207,13 +207,13 @@
   @if $t==rounded {
     box-shadow: none;
     color: white;
-    border-radius: 6px;
+    border-radius: 1px;
     background: $blue; }
 
     @if $t==rounded-red {
       box-shadow: none;
       color: white;
-      border-radius: 6px;
+      border-radius: 1px;
       background: $red; 
     }
   
@@ -259,7 +259,7 @@
 
   background-color: $selected_bg_color;
   text-shadow: none;
-  border-radius: 6px;
+  border-radius: 1px;
   box-shadow: none;
   font-weight: bold;
   @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);

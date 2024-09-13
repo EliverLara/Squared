@@ -46,6 +46,9 @@
      margin-top: 2px;
   
     @include button(normal);
+    border-radius: 1px;
+    box-shadow: none;
+    box-shadow: none;
  //   background-color: $sidebar_bg_color;
     .dim-label {
       color: transparent;
@@ -86,8 +89,11 @@
     // Current directory options button
     .flat.popup {
       margin: 0;
-      &:hover, &:active, &:checked, &:active:hover, &:focus {
-        @include button(hover, $selected_bg_color, $selected_fg_color);
+      button {
+        padding: 4px 6px;
+        &:hover, &:active, &:checked {
+          @include button(hover, $selected_bg_color, $selected_fg_color);
+        }
       }
     }
 
@@ -102,7 +108,7 @@
       image {
         margin-right: -6px;
         padding: 0px 0px 0px 12px;
-        border-radius: 6px 0px 0px 6px;
+        border-radius: 1px 0px 0px 1px;
       }
     }
   }
@@ -124,7 +130,7 @@
       // margin: 4px;
       margin-right: -7px;
       -gtk-icon-size: 12px;
-      border-radius: 0px 6px 6px 0px;
+      border-radius: 0px 1px 1px 0px;
       border: none;
       background-color: transparent;
    //   padding: 0 4px;
@@ -142,9 +148,22 @@
         &:backdrop { background-color: $backdrop_base_color; }
     }
   }
-  .content-pane .view{
-    background-color: $bg_color;
-    padding: 6px 0px;
+  .content-pane {
+    .top-bar  {
+      button.image-button, splitbutton.image-button button {
+        @include button(undecorated);
+        &:hover { @include button(hover, $selected_bg_color, $selected_fg_color); }
+        &:active, &:checked { @include button(active); }
+      }
+      splitbutton.image-button {
+         border-radius: 1px;
+      }
+    
+    }
+    .view {
+      background-color: $bg_color;
+      padding: 6px 0px;
+    }
   }
 
   searchbar {

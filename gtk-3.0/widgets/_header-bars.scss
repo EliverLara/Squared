@@ -43,15 +43,15 @@ headerbar {
     &.suggested-action{
       box-shadow: none;
       border: none;
-      background-image: $suggested_bg_color;
+      background-color: $suggested_bg_color;
         &:disabled, &:disabled:backdrop, &:backdrop, &:hover {
           border: none;
-          background-image: $suggested_bg_color;
+          background-color: $suggested_bg_color;
           &:hover,
           &:active,
           &:checked {
             border: none;
-            background-image: $suggested_bg_color;
+            background-color: $suggested_bg_color;
           }
         }
         
@@ -109,18 +109,18 @@ headerbar {
     margin: 5px 0px;
     min-height: 20px;
     &:first-child {
-      border-top-left-radius: 6px;
-      border-bottom-left-radius: 6px;
+      border-top-left-radius: 1px;
+      border-bottom-left-radius: 1px;
     }
 
     &:last-child {
-      border-top-right-radius: 6px;
-      border-bottom-right-radius: 6px;
+      border-top-right-radius: 1px;
+      border-bottom-right-radius: 1px;
       border-right-style: solid;
     }
 
     &:only-child {
-      border-radius: 6px;
+      border-radius: 1px;
       border-style: solid;
     }
   }
@@ -152,24 +152,24 @@ headerbar {
         margin-left: -1px;
         border-radius: 0px;
         &:active, &:checked {
-          border-radius: 0px 6px 6px 0px;
+          border-radius: 0px 1px 1px 0px;
         }
       }
       &:first-child {
-        border-radius: 6px 0px 0px 6px;
+        border-radius: 1px 0px 0px 1px;
         &:active, &:checked {
-          border-radius: 6px;
+          border-radius: 1px;
         }
       }
     }
     widget > .text-button:last-child{
-      border-radius: 0px 6px 6px 0px;
+      border-radius: 0px 1px 1px 0px;
       @include button(hover-header, $selected_bg_color, $selected_fg_color);
       &:backdrop, &:backdrop label {
         color: $backdrop_selected_fg_color;
       }
       &:only-child{
-        border-radius: 6px;
+        border-radius: 1px;
       } 
     }
   }
@@ -221,7 +221,7 @@ headerbar {
       image {
         margin-right: -6px;
         padding: 0px 6px 0px 12px;
-        border-radius: 4px 0px 0px 4px;
+        border-radius: 1px 0px 0px 1px;
       }
     }
   }
@@ -298,20 +298,20 @@ headerbar {
 
 
   &:backdrop, & {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
   }
 }
 
 headerbar {
   window:not(.tiled):not(.maximized) separator:first-child + &, // tackles the paned container case
-  window:not(.tiled):not(.maximized) &:first-child { &:backdrop, & { border-top-left-radius: 4px; }}
+  window:not(.tiled):not(.maximized) &:first-child { &:backdrop, & { border-top-left-radius: 1px; }}
 
-  window:not(.tiled):not(.maximized) &:last-child { &:backdrop, & { border-top-right-radius: 4px; }}
+  window:not(.tiled):not(.maximized) &:last-child { &:backdrop, & { border-top-right-radius: 1px; }}
 }
 window {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
 }
 
 .titlebar:not(headerbar) {

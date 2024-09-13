@@ -2,7 +2,7 @@
  * Window Decorations *
  *********************/
 decoration {
-  border-radius: 4px 4px 0 0;
+  border-radius: 1px 1px 0 0;
 
   // lamefun trick to get rounded borders regardless of CSD use
   border-width: 0px;
@@ -46,7 +46,7 @@ decoration {
   }
 
   tooltip.csd & {
-    border-radius: 6px;
+    border-radius: 1px;
     box-shadow: none;
   }
 

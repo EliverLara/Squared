@@ -120,18 +120,18 @@ headerbar {
     // margin: 5px 0px;
     // min-height: 20px;
     &:first-child {
-      border-top-left-radius: 6px;
-      border-bottom-left-radius: 6px;
+      border-top-left-radius: 1px;
+      border-bottom-left-radius: 1px;
     }
 
     &:last-child {
-      border-top-right-radius: 6px;
-      border-bottom-right-radius: 6px;
+      border-top-right-radius: 1px;
+      border-bottom-right-radius: 1px;
       border-right-style: solid;
     }
 
     &:only-child {
-      border-radius: 6px;
+      border-radius: 1px;
       border-style: solid;
     }
   }
@@ -152,15 +152,6 @@ headerbar {
   .linked > button:hover,
   .linked > button:backdrop { @extend %linked-header; }
   // End reset style
-
-  splitbutton.image-button {
-    button:not(.toggle) { 
-      border-radius: 6px 0px 0px 6px;
-    }
-    .popup button {
-      border-radius: 0px 6px 6px 0px ;
-    }
-  }
 
 
   &.selection-mode {
@@ -236,16 +227,16 @@ headerbar {
 
 
   &:backdrop, & {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
   }
 }
 
 headerbar {
   window:not(.tiled):not(.maximized) separator:first-child + &, // tackles the paned container case
-  window:not(.tiled):not(.maximized) &:first-child { &:backdrop, & { border-top-left-radius: 4px; }}
+  window:not(.tiled):not(.maximized) &:first-child { &:backdrop, & { border-top-left-radius: 1px; }}
 
-  window:not(.tiled):not(.maximized) &:last-child { &:backdrop, & { border-top-right-radius: 4px; }}
+  window:not(.tiled):not(.maximized) &:last-child { &:backdrop, & { border-top-right-radius: 1px; }}
 }
 
 

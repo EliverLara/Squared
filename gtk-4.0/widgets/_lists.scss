@@ -5,6 +5,7 @@ list, listview {
   color: $text_color;
   background-color: lighten($base_color, 1%);
   border-color: $borders_color;
+  border-radius: 0px;
 
   &:backdrop {
     background-color: $backdrop_base_color;
@@ -22,7 +23,7 @@ list, listview {
 }
 
 row {
-
+  border-radius: 0px;
   &:hover { transition: none; }
 
   &:backdrop { transition: $backdrop_transition; }

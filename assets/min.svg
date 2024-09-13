@@ -28,10 +28,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="17.15625"
-     inkscape:cx="-2.3315118"
-     inkscape:cy="4.7213115"
+     inkscape:cx="-2.273224"
+     inkscape:cy="4.7795993"
      inkscape:document-units="px"
-     inkscape:current-layer="g4415"
+     inkscape:current-layer="layer1"
      showgrid="true"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -62,48 +62,12 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-671.14288,-648.57648)">
-    <g
-       transform="matrix(0.1265625,0,0,-0.1265625,672.07092,663.09636)"
-       inkscape:label="ink_ext_XXXXXX"
-       id="g4090">
-      <g
-         transform="scale(0.1,0.1)"
-         id="g4092">
-        <g
-           transform="matrix(9.9999999,0,0,9.9999999,-4.0034923,0.11816995)"
-           inkscape:label="ink_ext_XXXXXX"
-           id="g4285">
-          <g
-             transform="scale(0.1,0.1)"
-             id="g4287">
-            <g
-               transform="matrix(10,0,0,10,4.1388913,2.0175489)"
-               inkscape:label="ink_ext_XXXXXX"
-               id="g4413">
-              <g
-                 transform="scale(0.1,0.1)"
-                 id="g4415">
-                <path
-                   id="path4417"
-                   style="fill:#d7bd7e;fill-opacity:1;fill-rule:evenodd;stroke:none"
-                   d="m 558.63645,-40.071141 c 305.46261,0 553.08915,247.626261 553.08915,553.088871 0,305.45744 -247.62654,553.08397 -553.08915,553.08397 -305.46132,0 -553.0885503,-247.62653 -553.0885503,-553.08397 0,-305.46261 247.6272303,-553.088871 553.0885503,-553.088871"
-                   inkscape:connector-curvature="0"
-                   inkscape:export-filename="min.png"
-                   inkscape:export-xdpi="109.71381"
-                   inkscape:export-ydpi="109.71381" />
-                <path
-                   id="path4419"
-                   style="fill:#d7bd7e;fill-opacity:1;fill-rule:evenodd;stroke:none"
-                   d="m 558.63936,-0.56504285 c 283.64212,0 513.57764,229.93706285 513.57764,513.58312285 0,283.64081 -229.93552,513.57752 -513.57764,513.57752 -283.64081,0 -513.582854,-229.93671 -513.582854,-513.57752 0,-283.64606 229.942044,-513.58312285 513.582854,-513.58312285"
-                   inkscape:connector-curvature="0"
-                   inkscape:export-filename="min.png"
-                   inkscape:export-xdpi="109.71381"
-                   inkscape:export-ydpi="109.71381" />
-              </g>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
+    <rect
+       style="fill:#d7bd7e;fill-opacity:1;stroke:#88b7af;stroke-width:0;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect1"
+       width="15"
+       height="15.000002"
+       x="671.64288"
+       y="649.07648" />
   </g>
 </svg>

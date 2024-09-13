@@ -208,14 +208,14 @@
     box-shadow: none;
   //  border: 1px solid $c;
     color: white;
-    border-radius: 6px;
+    border-radius: 1px;
     background-color: $blue; }
 
   @if $t==rounded-red {
     box-shadow: none;
   //  border: 1px solid $c;
     color: white;
-    border-radius: 6px;
+    border-radius: 1px;
     background-color: $red; 
   }
   
@@ -262,7 +262,7 @@
   //
   color: $tc;
   outline-color: transparentize($tc, 0.7);
-  background: $selected_bg_color; //($c==$base_color, $selected_bg_color, lighten($c, 12%));
+  background-color: $selected_bg_color; //($c==$base_color, $selected_bg_color, lighten($c, 12%));
   text-shadow: none;
   font-weight: bold;
   @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
@@ -407,9 +407,8 @@
   //
    // border-color: transparent;
     background-color: transparent;
-    background-image: none;
     box-shadow: none;
-    border: none;
+    border-color: transparent;
 
     text-shadow: none;
     -gtk-icon-shadow: none;
