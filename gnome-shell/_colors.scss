@@ -1,24 +1,24 @@
-$base_color: darken(#23262E, 3%);
-$bg_color: darken(#1A1D23, 2%); //252b2f
+$base_color: #1A2023;
+$bg_color: darken(#1A2023, 1%); //252b2f
 $main_dark: darken($bg_color, 5%);
 $gray: transparentize(white, 0.85);
-$fg_color: #fefefe;
+$fg_color: #BCC4C9;
 $dracula: $bg_color;
 $topbar_color:  lighten($fg_color, 20%);
 
 $orange: #FFAA5A;
-$yellow: #FFF05A;
-$red: darken(#FF044A, 10%);
+$yellow: #d7bd7e;
+$red: #ba706e;
 $purple: #9b59b6;
 $cyan: #00b0ff;
-$lime: #B3E235;
-$teal: #9bbfbf;
+$lime: #9dbc89;
+$teal: #88b7af;
 
-$g1: darken(#495aff, 1%);
-$g2: darken(#495aff, 1%);
+$g1: darken(#506A68, 1%);
+$g2: darken(#506A68, 1%);
 
 $selected_fg_color: #fefefe;
-$selected_bg_color: darken(#495aff, 2%);
+$selected_bg_color: #506A68;
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken($main_dark, 3%);
 $borders_edge: transparentize(white, 0.9);
@@ -34,7 +34,7 @@ $success_color: darken($cyan,10%);
 $destructive_color: darken( #c72240,10%);
 
 $osd_fg_color: $fg_color;
-$osd_bg_color: transparentize($bg_color, 0.07);
+$osd_bg_color: transparentize($bg_color, 0);
 $osd_borders_color: transparentize(black, 0.3);
 $osd_outer_borders_color: transparentize(white, 0.9);
 
@@ -53,4 +53,5 @@ $backdrop_insensitive_color: lighten($backdrop_bg_color, 15%);
 $backdrop_borders_color: mix($borders_color, $bg_color, 90%);
 $backdrop_dark_fill: mix($backdrop_borders_color,$backdrop_bg_color, 35%);
 
-$barlevel_active_bg: transparentize(white, 0.2);
+$barlevel_active_bg: $teal;
+$btn_bg: #252B2E;
