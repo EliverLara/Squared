@@ -989,7 +989,7 @@ StScrollBar {
 
 .message-close-button {
   color: #BCC4C9;
-  background-color: rgba(188, 196, 201, 0.4);
+  background-color: transparent;
   border-radius: 1px; }
   .message-close-button:hover {
     background-color: #ba706e; }

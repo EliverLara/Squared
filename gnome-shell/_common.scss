@@ -1140,7 +1140,7 @@ $slider_size: 16px;
           // close button
           .message-close-button {
             color: $fg_color;
-            background-color: transparentize($fg_color, 0.6);
+            background-color: transparent;
             border-radius: 1px;
 
             &:hover {
