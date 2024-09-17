@@ -5247,15 +5247,8 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
       background-color: rgba(80, 106, 104, 0.9); }
 .nautilus-window #NautilusPathBar {
   margin-top: 2px;
-  font-weight: normal;
-  color: #bcc3c9;
-  background-color: #252B2E;
-  text-shadow: none;
-  border: 1px solid #0b0d0f;
-  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 1px;
-  box-shadow: none;
-  box-shadow: none; }
+  background-color: #252B2E; }
   .nautilus-window #NautilusPathBar .dim-label, .nautilus-window #NautilusPathBar label.separator, .nautilus-window #NautilusPathBar .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar .subtitle,
   .nautilus-window #NautilusPathBar headerbar .subtitle,
   headerbar .nautilus-window #NautilusPathBar .subtitle {
@@ -5289,7 +5282,8 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     background: transparent;
     border: none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    box-shadow: none; }
   .nautilus-window #NautilusPathBar .flat.popup {
     margin: 0; }
     .nautilus-window #NautilusPathBar .flat.popup button {
