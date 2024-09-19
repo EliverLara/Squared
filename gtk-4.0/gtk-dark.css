@@ -3776,7 +3776,7 @@ treeview ~ scrollbar.vertical {
     border-left: 1px solid #0b0d0f;
     border-right-style: none; }
   .sidebar:backdrop, .navigation-sidebar:backdrop {
-    background-color: #1e2428;
+    background-color: #1a2023;
     border-color: #0d0f11;
     transition: 200ms ease-out; }
   .sidebar.source-list, .navigation-sidebar.source-list {
