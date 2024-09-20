@@ -2083,7 +2083,7 @@ GraniteWidgetsWelcome {
 .titlebar:not(headerbar), .titlebar, headerbar {
   padding: 0 6px;
   min-height: 38px;
-  background: #0f1315;
+  background: #1A2023;
   color: #bcc3c9;
   border-radius: 0; }
   .titlebar:backdrop,
