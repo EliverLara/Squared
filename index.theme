@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Space-dark
-Comment=A light theme with some gradients
+Name=Squared
+Comment=A dark theme with fancy colors
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Space-dark
-MetacityTheme=Space-dark
+GtkTheme=Squared
+MetacityTheme=Squared
 IconTheme=Boston
 ButtonLayout=:minimize,maximize,close
