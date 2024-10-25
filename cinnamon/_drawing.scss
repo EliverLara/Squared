@@ -26,8 +26,8 @@
   @if $t==focus {
     color: $fg_color;
     background-color: $entry_bg;
-    border: 1px solid $blue;
-    box-shadow: 0px 0px 1px 1px $blue inset;
+    border: 1px solid $selected_bg_color;
+    box-shadow: 0px 0px 1px 1px $selected_bg_color inset;
   }
 
   @if $t==insensitive {
@@ -77,7 +77,7 @@
     background-color: $button_bg;
     border: 1px solid $button_border;
     box-shadow: inset 0 2px 4px transparentize($button_bg, 0.95);
-    border-radius: 8px;
+    border-radius: 1px;
   }
 
   @else if $t==focus {
@@ -86,9 +86,9 @@
   //
     color: $fg_color;
     background-color: $button_active_bg;
-    border: 1px solid $selected_bg_color;
+    border: 1px solid $button_active_bg;
     box-shadow: inset 0 2px 4px transparentize($button_bg, 0.95);
-    border-radius: 8px;
+    border-radius: 1px;
   }
 
   @else if $t==focus-hover {
@@ -96,10 +96,10 @@
   // focused button
   //
     color: $fg_color;
-    background-color: $button_bg;
-    border: 1px solid $selected_bg_color;
+    background-color: $button_active_bg;
+    border: 1px solid $button_active_bg;
     box-shadow: inset 0 2px 4px transparentize($button_bg, 0.95);
-    border-radius: 8px;
+    border-radius: 1px;
   }
 
   @else if $t==hover {
@@ -107,11 +107,11 @@
   // hovered button
   //
     color: $fg_color;
-    background-color:$button_active_bg;
-    border: 1px solid $button_border;
+    background-color: $button_active_bg;
+    border: 1px solid $button_active_bg;
     box-shadow: inset 0 2px 4px transparentize(lighten($button_bg, 5%), 0.95);
     text-shadow: none;
-    border-radius: 8px;
+    border-radius: 1px;
   }
 
   @else if $t==active {
@@ -122,7 +122,7 @@
     background-color: $selected_bg_color;
     border: 1px solid $selected_bg_color;
     box-shadow: inset 0 2px 4px $selected_bg_color;
-    border-radius: 8px;
+    border-radius: 1px;
   }
 
   @else if $t==insensitive {
