@@ -248,7 +248,7 @@ StScrollBar {
 /* End Session Dialog */
 .end-session-dialog {
   border: none; }
-  .end-session-dialog .modal-dialog-linked-button:last-child:hover, .end-session-dialog .modal-dialog-linked-button:last-child:focus {
+  .end-session-dialog .modal-dialog-linked-button:last-child:hover, .end-session-dialog .modal-dialog-linked-button:last-child:focus, .end-session-dialog .modal-dialog-button:last-child:hover, .end-session-dialog .modal-dialog-button:last-child:focus {
     background: #ad5552;
     color: #fff; }
 

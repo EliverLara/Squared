@@ -246,7 +246,8 @@ $slider_size: 16px;
 /* End Session Dialog */
 .end-session-dialog {
   border: none;
-  & .modal-dialog-linked-button:last-child {
+  & .modal-dialog-linked-button:last-child,
+  & .modal-dialog-button:last-child {
     &:hover, &:focus {
       background: darken($error_color, 3%);
       color: #fff;
