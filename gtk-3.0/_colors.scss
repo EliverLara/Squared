@@ -2,28 +2,28 @@
 // it gets @if ed depending on $variant
 
 // Main definitions
-$base_color: if($variant == 'light', #f5f5f5, lighten(#1A2023, 2%));
-$text_color: if($variant == 'light', #31363D, #bcc3c9);
-$bg_color: if($variant == 'light', #e0e4e8, #1A2023);
-$fg_color: if($variant == 'light', #31363d, #BCC4C9);
+$base_color: if($variant == 'light', #f5f5f5, lighten(#2e3440, 2%));
+$text_color: if($variant == 'light', #31363D, #d8dee9);
+$bg_color: if($variant == 'light', #e0e4e8, #2e3440);
+$fg_color: if($variant == 'light', #31363d, #d8dee9);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
 $main_dark_color: darken($bg_color, 2%);
-$_sidebar_color: darken($base_color, 2%);
+$_sidebar_color: darken(red, 2%);
 // Primary colors
-$lime: #9dbc89;
-$red: #ba706e;
-$orange: #ff6a00;
-$yellow: #d7bd7e;
-$purple: #a983a1;
+$lime: #a3be8c;
+$red: #bf616a;
+$orange: #d08770;
+$yellow: #ebcb8b;
+$purple: #b48ead;
 $darkpurple: #7b7bbd;
-$blue: #7b9cb5;
-$cyan: #88b7af;
+$blue: #5e81ac;
+$cyan: #5e81ac;
 $slider: #7b7bbd;
-$teal: #88b7af;
+$teal: #8fbcbb;
 
-$selected_fg_color: #fefefe;
-$selected_bg_color: #506A68;
+$selected_fg_color: #d8dee9;
+$selected_bg_color: #4c566a;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: if($variant == 'light', transparentize(black,0.87), darken($bg_color, 7%));
@@ -57,7 +57,7 @@ $osd_insensitive_bg_color: transparentize(mix($osd_fg_color, opacify($osd_bg_col
 $osd_insensitive_fg_color: mix($osd_fg_color, opacify($osd_bg_color, 1), 50%);
 $osd_borders_color: transparentize(black, 0.3);
 
-$sidebar_bg_color: mix(darken($bg_color, 1%), darken($base_color, 2%), 50%);
+$sidebar_bg_color: mix(darken($bg_color, 2%), darken($base_color, 3%), 50%);
 $base_hover_color: transparentize($fg_color, 0.95);
 
 $tooltip_borders_color: transparentize(white, 0.9);
@@ -110,4 +110,4 @@ $suggested_bg_color: $blue;
 $destructive_bg_color: $red;
 $menu_shadow_color: if($variant == 'light', transparentize(rgb(110, 110, 110), 0.6), transparent);
 
-$btn_bg: #252B2E;
+$btn_bg: lighten($base_color, 2%);
