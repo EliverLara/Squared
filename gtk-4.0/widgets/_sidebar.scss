@@ -1,14 +1,10 @@
 /***********
  * Sidebar *
  ***********/
-.sidebar, .navigation-sidebar {
+.sidebar {
   border-style: none;
   border-width: 0;
-  background-color: $sidebar_bg_color;
-
-  // .frame{
-  //   border: none;
-  // }
+  background-color: $red;
 
   @at-root %sidebar_left,
   &:dir(ltr),
@@ -31,40 +27,7 @@
     transition: $backdrop_transition;
   }
 
-  // list { 
-  //   background-color: $sidebar_bg_color;  
-  //   @if $variant=='light' {
-  //   box-shadow: -10px 0px 12px rgba(162, 162, 165, 0.21) inset,
-  //               10px -7px 12px $base_color inset,
-  //               10px 7px 12px $base_color inset;
-  //   }
-              
-  // }
-  // row{
-  //   padding: 2px 14px;
-  //   transition: all .12s ease-in;
-  //   border-radius: 0;
-  //   margin: 0;
-  //   &:selected{
-  //     background: if($variant == 'light', transparentize( lighten($bg_color, 2%), 0.4), transparentize(lighten($base_color, 7%), 0.4));
-  //     color: #ACACAC;
-  //     border-left: 4px solid $selected_bg_color;
-  //     &:backdrop{
-  //       color: $backdrop_selected_bg_color;
-  //       background: transparent;
-  //       label{
-  //         color: $backdrop_selected_bg_color;
-  //       }  
-  //     }
-  //     &:hover{
-  //       background-color: transparentize($selected_bg_color, 0.8);
-  //     }
-  //     label{
-  //       color: #ACACAC;
-  //       font-weight: bold;
-  //     }
-  //   }
-  // }
+  row { padding: 8px 12px; }
 
     //elementary os file manager
     &.source-list{
@@ -124,28 +87,26 @@ stacksidebar {
   }
 }
 
+.navigation-sidebar, placessidebar {
+  &, &:backdrop { background: $sidebar_bg_color; }
+  list { &, &:backdrop { background-color: $sidebar_bg_color; } }
+}
+
 placessidebar {
   > viewport.frame { border-style: solid; }
 
   row {
-
     padding: 2px 11px;
-    //border-radius: 0px;
-   // margin: 0 15px;
     .sidebar-icon {
       margin-left:-14px;
       margin-right: 7px;
       padding-left: 14px;
       padding-right: 7px;
     }
-    &:selected {
-      background:linear-gradient(to right,
-            $btn_bg 40px,
-            $btn_bg 40px,  $btn_bg 97%);
+    &.sidebar-row:selected {
+      &, &:hover, &:backdrop { background-color: $btn_bg; }
     }
-    label {
-      padding-left: 8px;
-    }
+    label { padding-left: 8px; }
 
     &.sidebar-new-bookmark-row { color: $yellow; }
 
