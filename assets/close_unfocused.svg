@@ -6,7 +6,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    sodipodi:docname="close_unfocused.svg"
    inkscape:export-filename="close_unfocused.png"
    inkscape:export-xdpi="96"
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="19.317893"
-     inkscape:cx="3.9341765"
-     inkscape:cy="8.851897"
+     inkscape:cx="3.9600592"
+     inkscape:cy="8.8777798"
      inkscape:document-units="px"
      inkscape:current-layer="g4197"
      showgrid="true"
@@ -77,7 +77,7 @@
              transform="scale(0.1)"
              id="g4197">
             <rect
-               style="fill:#2b2b2c;fill-opacity:1;stroke:#88b7af;stroke-width:0;stroke-linejoin:miter;stroke-dasharray:none"
+               style="fill:#3b4252;fill-opacity:1;stroke:#88b7af;stroke-width:0;stroke-linejoin:miter;stroke-dasharray:none"
                id="rect1"
                width="1185.1852"
                height="1185.1853"
