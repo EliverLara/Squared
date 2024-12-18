@@ -39,7 +39,7 @@
 /* these are pretty self explicative */
 @define-color warning_color #c3674a;
 @define-color error_color #b84f59;
-@define-color success_color #49688e;
+@define-color success_color #63adc2;
 /* these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */
 @define-color wm_title shade(#d8dee9, 1.8);
@@ -584,23 +584,23 @@ button.suggested-action {
   box-shadow: none;
   color: white;
   border-radius: 1px;
-  background-color: #5e81ac; }
+  background-color: #81a1c1; }
   .selection-mode windowcontrols button, button.suggested-action.flat {
     box-shadow: none;
     color: white;
     border-radius: 1px;
-    background-color: #5e81ac; }
+    background-color: #81a1c1; }
   button.suggested-action:hover {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #5e81ac;
+    background-color: #81a1c1;
     text-shadow: none;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
     opacity: 0.9; }
   .selection-mode windowcontrols button:backdrop, button.suggested-action:backdrop, button.suggested-action.flat:backdrop {
     color: rgba(255, 255, 255, 0.4);
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #5e81ac;
+    background-color: #81a1c1;
     text-shadow: none; }
     .selection-mode windowcontrols button:backdrop label, button.suggested-action:backdrop label, button.suggested-action.flat:backdrop label {
       color: rgba(255, 255, 255, 0.5); }
@@ -614,7 +614,7 @@ button.suggested-action {
     .selection-mode windowcontrols button:backdrop:disabled, button.suggested-action:backdrop:disabled, button.suggested-action.flat:backdrop:disabled {
       color: white;
       outline-color: rgba(255, 255, 255, 0.3);
-      background-color: #5e81ac;
+      background-color: #81a1c1;
       text-shadow: none; }
       .selection-mode windowcontrols button:backdrop:disabled label, button.suggested-action:backdrop:disabled label, button.suggested-action.flat:backdrop:disabled label {
         color: rgba(255, 255, 255, 0.5); }
@@ -629,23 +629,23 @@ button.suggested-action {
     border-color: transparent;
     text-shadow: none;
     -gtk-icon-shadow: none;
-    color: rgba(94, 129, 172, 0.8); }
+    color: rgba(129, 161, 193, 0.8); }
   button.suggested-action:disabled {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #5e81ac;
+    background-color: #81a1c1;
     text-shadow: none; }
     button.suggested-action:disabled:active, button.suggested-action:disabled:checked {
       color: rgba(216, 222, 233, 0.7);
       outline-color: rgba(255, 255, 255, 0.3);
-      background-color: #5e81ac;
+      background-color: #81a1c1;
       text-shadow: none; }
       button.suggested-action:disabled:active label, button.suggested-action:disabled:checked label {
         color: rgba(216, 222, 233, 0.7); }
   .osd button.suggested-action {
     color: #fefefe;
     border-color: rgba(0, 0, 0, 0.7);
-    background-color: rgba(94, 129, 172, 0.5);
+    background-color: rgba(129, 161, 193, 0.5);
     background-clip: padding-box;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
     text-shadow: 0 1px black;
@@ -654,7 +654,7 @@ button.suggested-action {
     .osd button.suggested-action:hover {
       color: white;
       border-color: rgba(0, 0, 0, 0.7);
-      background-image: linear-gradient(to bottom, rgba(94, 129, 172, 0.7), rgba(94, 129, 172, 0.7));
+      background-image: linear-gradient(to bottom, rgba(129, 161, 193, 0.7), rgba(129, 161, 193, 0.7));
       background-clip: padding-box;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
       text-shadow: 0 1px black;
@@ -663,7 +663,7 @@ button.suggested-action {
     .osd button.suggested-action:active:backdrop, .osd button.suggested-action:active, .osd button.suggested-action:checked:backdrop, .osd button.suggested-action:checked {
       color: white;
       border-color: rgba(0, 0, 0, 0.7);
-      background-image: linear-gradient(to bottom, #5e81ac, #5e81ac);
+      background-image: linear-gradient(to bottom, #81a1c1, #81a1c1);
       background-clip: padding-box;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
       text-shadow: none;
@@ -680,7 +680,7 @@ button.suggested-action {
     .osd button.suggested-action:backdrop {
       color: #fefefe;
       border-color: rgba(0, 0, 0, 0.7);
-      background-image: linear-gradient(to bottom, rgba(94, 129, 172, 0.5), rgba(94, 129, 172, 0.5));
+      background-image: linear-gradient(to bottom, rgba(129, 161, 193, 0.5), rgba(129, 161, 193, 0.5));
       background-clip: padding-box;
       box-shadow: none;
       text-shadow: none;
@@ -689,7 +689,7 @@ button.destructive-action {
   box-shadow: none;
   color: white;
   border-radius: 1px;
-  background-color: #5e81ac;
+  background-color: #81a1c1;
   box-shadow: none;
   color: white;
   border-radius: 1px;
@@ -698,7 +698,7 @@ button.destructive-action {
     box-shadow: none;
     color: white;
     border-radius: 1px;
-    background-color: #5e81ac; }
+    background-color: #81a1c1; }
   button.destructive-action:hover {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
@@ -2082,7 +2082,7 @@ GraniteWidgetsWelcome {
   .storage-bar .fill-block.empty-block {
     background-color: #323946; }
   .storage-bar .fill-block.app {
-    background-color: #5e81ac; }
+    background-color: #81a1c1; }
   .storage-bar .fill-block.audio {
     background-color: #d08770; }
   .storage-bar .fill-block.photo {
@@ -2444,7 +2444,7 @@ infobar {
   background-color: transparent; }
 
 .question, .question:backdrop {
-  color: #5e81ac;
+  color: #88c0d0;
   background-color: transparent; }
 
 .error, .error:backdrop {
@@ -2484,8 +2484,8 @@ levelbar > trough > block {
     border-color: #c3674a;
     background-color: #c3674a; }
   levelbar > trough > block.high, levelbar > trough > block:not(.empty) {
-    border-color: #5e81ac;
-    background-color: #5e81ac; }
+    border-color: #81a1c1;
+    background-color: #81a1c1; }
   levelbar > trough > block.full {
     border-color: #bf616a;
     background-color: #bf616a; }
@@ -2498,22 +2498,22 @@ levelbar > trough > block {
  *********/
 *:link, button:link,
 button:visited {
-  color: #5e81ac; }
+  color: #81a1c1; }
   *:link:visited,
   button:visited {
-    color: rgba(94, 129, 172, 0.5); }
+    color: rgba(129, 161, 193, 0.5); }
     *:selected *:link:visited, *:selected button:visited:link,
     *:selected button:visited {
       color: #a0a8b6; }
   *:link:hover, button:hover:link,
   button:hover:visited {
-    color: #809bbd; }
+    color: #a3bbd2; }
     *:selected *:link:hover, *:selected button:hover:link,
     *:selected button:hover:visited {
       color: #cad0dc; }
   *:link:active, button:active:link,
   button:active:visited {
-    color: #5e81ac; }
+    color: #81a1c1; }
     *:selected *:link:active, *:selected button:active:link,
     *:selected button:active:visited {
       color: #bcc3d0; }
@@ -3382,7 +3382,7 @@ scale {
     background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.507), 0px 0px 5px rgba(0, 0, 0, 0.5); }
     scale slider:hover {
-      box-shadow: 0px 0px 10px #5e81ac; }
+      box-shadow: 0px 0px 10px #81a1c1; }
     scale slider:active {
       border-color: #373e4c; }
     scale slider:disabled {
@@ -3930,7 +3930,7 @@ placessidebar row {
         color: #d8dee9; }
 
 .bottom-bar {
-  background-color: #f50000; }
+  background-color: #2e3440; }
   .bottom-bar button {
     background-color: transparent;
     border-radius: 0px;
@@ -4608,7 +4608,7 @@ treeview.view:selected {
       box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
     .budgie-menu .category-button:checked {
       color: #d8dee9;
-      background: #5e81ac; }
+      background: #81a1c1; }
       .budgie-menu .category-button:checked:hover {
         color: rgba(216, 222, 233, 0.9); }
     .budgie-menu .category-button:checked:disabled {
@@ -5095,7 +5095,7 @@ button.raven-trigger {
       background: #b48ead;
       color: #d8dee9; }
     .raven .powerstrip button.image-button:first-child {
-      background: #5e81ac; }
+      background: #81a1c1; }
       .raven .powerstrip button.image-button:first-child:hover {
         background: rgba(76, 86, 106, 0.85); }
       .raven .powerstrip button.image-button:first-child:active {
