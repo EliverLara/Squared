@@ -1,26 +1,27 @@
 // When color definition differs for dark and light variant,
 // it gets @if ed depending on $variant
-$base_color: if($variant == 'light', #f5f5f5, lighten(#1A2023, 2%));
-$text_color: if($variant == 'light', #31363D, #bcc3c9);
-$bg_color: if($variant == 'light', #e0e4e8, #1A2023);
-$fg_color: if($variant == 'light', #31363d, #BCC4C9);
+$base_color: if($variant == 'light', #f5f5f5, lighten(#2e3440, 2%));
+$text_color: if($variant == 'light', #31363D, #d8dee9);
+$bg_color: if($variant == 'light', #e0e4e8, #2e3440);
+$fg_color: if($variant == 'light', #31363d, #d8dee9);
 
 $main_dark_color: darken($bg_color, 2%);
 
 // Primary colors
-$orange: #ff6a00;
-$yellow: #d7bd7e;
-$red: #ba706e;
-$purple: #a983a1;
-$cyan: #88b7af;
-$lime: #9dbc89;
+$lime: #a3be8c;
+$red: #bf616a;
+$orange: #d08770;
+$yellow: #ebcb8b;
+$purple: #b48ead;
 $darkpurple: #7b7bbd;
-$blue: #7b9cb5;
+$cyan: #88c0d0;
+$blue: #81a1c1;
 $slider: #7b7bbd;
-$teal: #88b7af;
+$teal: #8fbcbb;
 
-$selected_fg_color: #fefefe;
-$selected_bg_color: #506A68;
+$selected_fg_color: #d8dee9;
+$selected_bg_color: #4c566a;
+$selected_bg_color_lighter: lighten(#4c566a, 13%);
 $selected_borders_color: darken($selected_bg_color, 20%);
 $borders_color: if($variant == 'light', transparentize(black,0.87), darken($bg_color, 7%));
 
@@ -78,13 +79,13 @@ $osd_borders_color: transparentize(black, 0.3);
 $panel_bg: transparentize($bg_color, 0.1);
 $panel_fg: $dark_sidebar_fg;
 
-$entry_bg:#252B2E;
+$entry_bg: lighten($base_color, 2%);
 $entry_border: if($variant == 'light', #cfd6e6, darken($borders_color, 0%));
 
 $header_entry_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0.6), transparentize($base_color, 0.1));
 $header_entry_border: if($darker == 'true' or $variant == 'dark', transparentize(darken($header_bg, 12%), 0.6), transparentize($header_fg, 0.7));
 
-$button_bg: #252B2E;
+$button_bg: $entry_bg;
 $button_active_bg: lighten($button_bg, 4%);
 $button_border: $entry_border;
 
