@@ -1,28 +1,30 @@
-$base_color: #1A2023;
-$bg_color: darken(#1A2023, 1%); //252b2f
+$base_color: #2e3440;
+$bg_color: darken(#2e3440, 1%); //252b2f
 $main_dark: darken($bg_color, 5%);
-$gray: transparentize(white, 0.85);
-$fg_color: #BCC4C9;
+$gray: transparentize(white, 0.9);
+$fg_color: #d8dee9;
 $dracula: $bg_color;
 $topbar_color:  lighten($fg_color, 20%);
 
-$orange: #FFAA5A;
-$yellow: #d7bd7e;
-$red: #ba706e;
-$purple: #9b59b6;
-$cyan: #00b0ff;
-$lime: #9dbc89;
-$teal: #88b7af;
+$orange: #d08770;
+$yellow: #ebcb8b;
+$red: #bf616a;
+$purple: #b48ead;
+$cyan: #88c0d0;
+$lime: #a3be8c;
+$teal: #8fbcbb;
+$blue: #81a1c1;
 
 $g1: darken(#506A68, 1%);
 $g2: darken(#506A68, 1%);
 
-$selected_fg_color: #fefefe;
-$selected_bg_color: #506A68;
+$selected_fg_color: #d8dee9;
+$selected_bg_color: #4c566a;
+$selected_bg_color_lighter: lighten(#4c566a, 13%);
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken($main_dark, 3%);
 $borders_edge: transparentize(white, 0.9);
-$link_color: #A0C1B9;
+$link_color: $cyan;
 $link_visited_color: transparentize($link_color,0.5);
 $top_hilight: $borders_edge;
 $top_highlight: transparentize(white, 0.9);
@@ -53,5 +55,5 @@ $backdrop_insensitive_color: lighten($backdrop_bg_color, 15%);
 $backdrop_borders_color: mix($borders_color, $bg_color, 90%);
 $backdrop_dark_fill: mix($backdrop_borders_color,$backdrop_bg_color, 35%);
 
-$barlevel_active_bg: $teal;
-$btn_bg: #252B2E;
+$barlevel_active_bg: $selected_bg_color_lighter;
+$btn_bg: lighten($base_color, 3%);

@@ -6,7 +6,7 @@
    height="22"
    id="svg3199"
    version="1.1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    sodipodi:docname="checkbox-focused.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -173,8 +173,8 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1012"
+     inkscape:window-width="2560"
+     inkscape:window-height="1372"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -191,7 +191,12 @@
        empspacing="5"
        visible="true"
        enabled="true"
-       snapvisiblegridlinesonly="true" />
+       snapvisiblegridlinesonly="true"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px" />
   </sodipodi:namedview>
   <metadata
      id="metadata3204">
@@ -219,7 +224,7 @@
        y="521.58435" />
     <path
        id="path4731"
-       style="display:inline;opacity:1;fill:#005ed1;fill-opacity:1;stroke:none;stroke-opacity:1;enable-background:new"
+       style="display:inline;opacity:1;fill:#81a1c1;fill-opacity:1;stroke:none;stroke-opacity:1;enable-background:new"
        d="M 4.5,1 C 2.007,1 0,3.007 0,5.5 v 12 C 0,19.993 2.007,22 4.5,22 h 12 C 18.993,22 21,19.993 21,17.5 V 5.5 C 21,3.007 18.993,1 16.5,1 Z"
        transform="translate(342.5,521.36218)" />
     <path

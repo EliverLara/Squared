@@ -101,7 +101,7 @@ $slider_size: 16px;
 
 .slider {
 
-  color: $teal;
+  color: $selected_bg_color_lighter;
 
   -barlevel-height: 4px;
   -barlevel-background-color: $gray; //background of the trough
@@ -249,7 +249,7 @@ $slider_size: 16px;
   & .modal-dialog-linked-button:last-child,
   & .modal-dialog-button:last-child {
     &:hover, &:focus {
-      background: darken($error_color, 3%);
+      background: darken($error_color, 3%) !important;
       color: #fff;
     }
   }
@@ -709,7 +709,7 @@ $slider_size: 16px;
   }
 
   .switcher-list .item-box:selected {
-    background-color: $teal;
+    background-color: $selected_bg_color;
     color: $selected_fg_color;
   }
 
@@ -764,7 +764,7 @@ $slider_size: 16px;
   .ws-switcher-active-left,
   .ws-switcher-active-right {
     height: 50px;
-    background-color: $teal;
+    background-color: $selected_bg_color;
     color: $selected_fg_color;
     border: none;
     background-size: 32px;
@@ -1566,9 +1566,9 @@ $slider_size: 16px;
 
   .app-well-app-running-dot, .app-grid-running-dot { //running apps indicator
     width: 4px; height: 4px;
-    background-color: $selected_bg_color;
+    background-color: $blue;
     border-radius: 10px !important;
-    box-shadow: 0px 0px 5px 4px transparentize($selected_bg_color,0.2);
+    box-shadow: 0px 0px 5px 4px transparentize($blue,0.2);
     margin-bottom: 0px;
   }
 
