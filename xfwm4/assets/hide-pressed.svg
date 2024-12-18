@@ -67,14 +67,14 @@
      id="layer1"
      transform="translate(0,-1020.3622)">
     <rect
-       style="opacity:1;fill:#1A2023;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9236;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.437;stroke-opacity:1"
+       style="opacity:1;fill:#2b303c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9236;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.437;stroke-opacity:1"
        id="rect4741"
        width="22"
        height="20"
        x="0"
        y="1020.3622" />
     <rect
-       style="fill:#d7bd7e;stroke-width:1.7049"
+       style="fill:#ebcb8b;stroke-width:1.7049"
        id="rect1"
        width="14"
        height="14"
@@ -84,7 +84,7 @@
        ry="2.2144633e-05" />
     <path
        id="path4421"
-       style="fill:#1A2023;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.128447"
+       style="fill:#2b303c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.128447"
        d="m 6.533624,1029.7256 h 8.932752 c 0.345745,0 0.628571,0.2828 0.628571,0.6286 v 0.016 c 0,0.3458 -0.282826,0.6286 -0.628571,0.6286 H 6.533624 c -0.3457616,0 -0.628571,-0.2828 -0.628571,-0.6286 v -0.016 c 0,-0.3458 0.2828094,-0.6286 0.628571,-0.6286"
        inkscape:connector-curvature="0" />
   </g>

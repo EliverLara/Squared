@@ -67,14 +67,14 @@
      id="layer1"
      transform="translate(0,-1020.3622)">
     <rect
-       style="opacity:1;fill:#1A2023;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9236;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.437;stroke-opacity:1"
+       style="opacity:1;fill:#2b303c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9236;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.437;stroke-opacity:1"
        id="rect4741"
        width="22"
        height="20"
        x="0"
        y="1020.3622" />
     <rect
-       style="fill:#9dbc89;stroke-width:1.7049;fill-opacity:1"
+       style="fill:#a3be8c;stroke-width:1.7049;fill-opacity:1"
        id="rect1"
        width="14"
        height="14"
@@ -85,7 +85,7 @@
     <path
        inkscape:connector-curvature="0"
        d="m 8.9302115,1026.4583 h 4.7826835 c 0.63684,0 1.157943,0.5211 1.157943,1.158 v 4.7826 z m 4.1584435,7.8079 H 8.2871065 c -0.636912,0 -1.157944,-0.5211 -1.157944,-1.158 v -4.8016 l 5.9594925,5.9596"
-       style="fill:#1A2023;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0166208"
+       style="fill:#2b303c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0166208"
        id="path4293" />
   </g>
 </svg>

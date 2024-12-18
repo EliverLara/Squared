@@ -67,14 +67,14 @@
      id="layer1"
      transform="translate(0,-1020.3622)">
     <rect
-       style="opacity:1;fill:#1A2023;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9236;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.437;stroke-opacity:1"
+       style="opacity:1;fill:#2b303c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9236;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.437;stroke-opacity:1"
        id="rect4741"
        width="22"
        height="20"
        x="0"
        y="1020.3622" />
     <rect
-       style="fill:#ba706e;stroke-width:1.7049;fill-opacity:1"
+       style="fill:#bf616a;stroke-width:1.7049;fill-opacity:1"
        id="rect1"
        width="14"
        height="14"
@@ -86,6 +86,6 @@
        inkscape:connector-curvature="0"
        id="path4098"
        d="m 7.8482851,1026.569 c -0.161113,0 -0.322471,0.062 -0.444723,0.1851 l -0.01105,0.011 c -0.244524,0.2445 -0.244524,0.6449 0,0.8894 l 2.7070109,2.707 -2.7070109,2.7098 c -0.244453,0.2444 -0.244453,0.6422 0,0.8866 l 0.01105,0.014 c 0.244435,0.2446 0.64494,0.2446 0.889446,0 l 2.7070119,-2.7069 2.707012,2.7069 c 0.244451,0.2446 0.64494,0.2446 0.889447,0 l 0.01105,-0.014 c 0.244433,-0.2444 0.244433,-0.6422 0,-0.8866 l -2.707012,-2.7098 2.707011,-2.707 c 0.244434,-0.2445 0.244507,-0.645 0,-0.8894 l -0.01105,-0.011 c -0.244578,-0.2445 -0.644995,-0.2445 -0.889446,0 l -2.707012,2.707 -2.7070119,-2.707 c -0.122253,-0.1223 -0.28361,-0.1851 -0.444723,-0.1851 z"
-       style="fill:#1A2023;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0135173" />
+       style="fill:#2b303c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0135173" />
   </g>
 </svg>
