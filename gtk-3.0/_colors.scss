@@ -9,7 +9,7 @@ $fg_color: if($variant == 'light', #31363d, #d8dee9);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
 $main_dark_color: darken($bg_color, 2%);
-$_sidebar_color: darken(red, 2%);
+$_sidebar_color: darken($base_color, 2%);
 // Primary colors
 $lime: #a3be8c;
 $red: #bf616a;
@@ -24,6 +24,7 @@ $teal: #8fbcbb;
 
 $selected_fg_color: #d8dee9;
 $selected_bg_color: #4c566a;
+$selected_bg_color_lighter: lighten(#4c566a, 13%);
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: if($variant == 'light', transparentize(black,0.87), darken($bg_color, 7%));

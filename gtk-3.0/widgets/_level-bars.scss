@@ -4,26 +4,19 @@
 levelbar {
   block {
     min-width: 32px;
-    min-height: 6px;
+    min-height: 5px;
   }
 
   &.vertical block {
-    min-width: 6px;
+    min-width: 5px;
     min-height: 32px;
   }
 
   &:backdrop { transition: $backdrop_transition; }
 
   trough {
-    padding: 3px;
-    border-radius: 3px;
-    background-color: if($variant == 'light' ,transparentize(white,0.2),transparentize(white,0.8));
-    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
-
-    &:backdrop {
-      background-color: if($variant == 'light' ,transparentize(white,0.4),transparentize(white,0.94));
-      box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
-    }
+    padding: 0px;
+    border-radius: 0px;
   }
 
   &.horizontal.discrete block { margin: 0 1px; }
@@ -31,7 +24,7 @@ levelbar {
   &.vertical.discrete block { margin: 1px 0; }
 
   block {
-    border-radius: 2px;
+    border-radius: 0px;
 
     &:backdrop { box-shadow: none; }
 
@@ -43,9 +36,9 @@ levelbar {
 
     &.high,
     &:not(.empty) {
-      background-color: $lime;
+      background-color: $blue;
 
-      &:backdrop { border-color: $lime; }
+      &:backdrop { border-color: $blue; }
     }
 
     &.full {
@@ -55,7 +48,8 @@ levelbar {
     }
 
     &.empty {
-      background-color:  if($variant == 'light' ,transparentize(black, 0.86),transparentize(black,0.65));
+      background-color: $scale_bg;
+      border-color: $borders_color;
       box-shadow: none;
     }
   }
