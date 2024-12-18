@@ -35,9 +35,9 @@
 
 // entries
 
-@function entry_focus_border($fc:$teal) {
-  @if $variant == 'light' { @return $teal; }
-  @else { @return if($fc==$selected_bg_color, $teal, darken($fc, 35%)); }
+@function entry_focus_border($fc:lighten($selected_bg_color, 13%)) {
+  @if $variant == 'light' { @return lighten($selected_bg_color, 13%); }
+  @else { @return if($fc==$selected_bg_color, lighten($selected_bg_color, 13%), darken($fc, 35%)); }
 }
 
 
@@ -74,7 +74,7 @@
   }
   @if $t==focus {
     border-color: entry_focus_border($fc);
-    box-shadow: 0px 0px 1px 1px $teal inset;
+    box-shadow: 0px 0px 1px 1px lighten($selected_bg_color, 13%) inset;
   }
   @if $t==insensitive {
     color: $insensitive_fg_color;

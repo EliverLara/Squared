@@ -4,7 +4,7 @@
 %scale_trough {
   background-color: $scale_bg;
   border: none;
-  border-radius: 3px;
+  border-radius: 0px;
   margin: 0;
 
   &:disabled { background-color: $scale_disabled_bg; }
@@ -19,8 +19,8 @@
 
 %scale_highlight {
   border: none;
-  background-color: $teal;
-  border-radius: 3px;
+  background-color: lighten($selected_bg_color, 13%);
+  border-radius: 0px;
   margin: 0;
 
   &:disabled {
@@ -30,8 +30,8 @@
 
   &:backdrop,
   &:active:backdrop {
-    border-color: lighten($teal, 5%);
-    background-color: lighten($teal, 5%);
+    border-color: lighten($selected_bg_color, 5%);
+    background-color: lighten($selected_bg_color, 5%);
     &:disabled {
       background-color: $scale_disabled_bg;
     }
@@ -73,7 +73,7 @@ scale {
     transition-property: background, border, box-shadow;
 
     &:active {
-      background-color: $teal;
+      background-color: lighten($selected_bg_color, 13%);
 
       &:disabled {
         background-color: $insensitive_bg_color;
@@ -103,7 +103,7 @@ scale {
     fill,
     highlight,
     trough {
-      border-radius: 5px;
+      border-radius: 0px;
     }
   }
 
@@ -145,7 +145,7 @@ scale {
     }
   }
 
-  $_scale_bg: darken($teal, 5%);
+  $_scale_bg: lighten($selected_bg_color, 5%);
   $_scale_disabled_bg: darken($_scale_bg, 15%);
   slider {
     border-color: $borders_color;
@@ -160,7 +160,7 @@ scale {
 
     &:hover { 
       @include button(hover-alt, $edge: $shadow_color);
-      box-shadow: 0px 0px 10px $teal;
+      box-shadow: 0px 0px 10px $blue;
     }
 
     &:active { border-color: $selected_borders_color; }

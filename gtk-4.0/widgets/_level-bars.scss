@@ -1,6 +1,6 @@
 
 $_levelbar_size: 5px;
-$_levelbar_border_radius: 5px;
+$_levelbar_border_radius: 0px;
 
 levelbar {
   &.horizontal {
@@ -64,8 +64,8 @@ levelbar {
 
     &.high,
     &:not(.empty) {
-      border-color: $lime;
-      background-color: $lime;
+      border-color: $blue;
+      background-color: $blue;
     }
 
     &.full {

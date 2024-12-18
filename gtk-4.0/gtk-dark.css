@@ -1611,8 +1611,8 @@ spinbutton:not(.vertical), spinbutton.vertical > text, entry {
     border-radius: 0; }
   spinbutton:focus-within:not(.vertical), spinbutton.vertical > text:focus-within,
   entry:focus-within {
-    border-color: #8fbcbb;
-    box-shadow: 0px 0px 1px 1px #8fbcbb inset; }
+    border-color: #687591;
+    box-shadow: 0px 0px 1px 1px #687591 inset; }
   spinbutton:disabled:not(.vertical), spinbutton.vertical > text:disabled,
   entry:disabled {
     color: #838995;
@@ -1642,7 +1642,7 @@ spinbutton:not(.vertical), spinbutton.vertical > text, entry {
     spinbutton.error:focus-within:not(.vertical), spinbutton.vertical > text.error:focus-within,
     entry.error:focus-within {
       border-color: #3c181c;
-      box-shadow: 0px 0px 1px 1px #8fbcbb inset; }
+      box-shadow: 0px 0px 1px 1px #687591 inset; }
     spinbutton.error:selected:focus:not(.vertical), spinbutton.vertical > text.error:selected:focus, spinbutton.error:selected:not(.vertical), spinbutton.vertical > text.error:selected,
     entry.error:selected:focus,
     entry.error:selected {
@@ -1657,7 +1657,7 @@ spinbutton:not(.vertical), spinbutton.vertical > text, entry {
     spinbutton.warning:focus-within:not(.vertical), spinbutton.vertical > text.warning:focus-within,
     entry.warning:focus-within {
       border-color: #442116;
-      box-shadow: 0px 0px 1px 1px #8fbcbb inset; }
+      box-shadow: 0px 0px 1px 1px #687591 inset; }
     spinbutton.warning:selected:focus:not(.vertical), spinbutton.vertical > text.warning:selected:focus, spinbutton.warning:selected:not(.vertical), spinbutton.vertical > text.warning:selected,
     entry.warning:selected:focus,
     entry.warning:selected {
@@ -1748,8 +1748,8 @@ entry {
   border-right-color: transparent; }
   .linked:not(.vertical) > spinbutton:focus-within:not(.vertical), spinbutton.vertical.linked:not(.vertical) > text:focus-within, .linked:not(.vertical) >
   entry:focus-within {
-    border-color: #8fbcbb;
-    box-shadow: 0px 0px 1px 1px #8fbcbb inset; }
+    border-color: #687591;
+    box-shadow: 0px 0px 1px 1px #687591 inset; }
     .linked:not(.vertical) > spinbutton:focus-within:not(.vertical) + .popup button, spinbutton.vertical.linked:not(.vertical) > text:focus-within + .popup button, .linked:not(.vertical) >
     entry:focus-within + .popup button {
       border-left-color: #4c566a; }
@@ -1776,7 +1776,7 @@ spinbutton.vertical.linked > text + entry:focus:not(:only-child), .linked.vertic
 entry + spinbutton:focus:not(:only-child):not(.vertical), spinbutton.vertical.linked > entry + text:focus:not(:only-child),
 .linked.vertical >
 entry + entry:focus:not(:only-child) {
-  border-top-color: #395f5f; }
+  border-top-color: #1d2129; }
 .linked.vertical > spinbutton:not(.vertical) + spinbutton:drop(active):not(:only-child):not(.vertical), spinbutton.vertical.linked > text + spinbutton:drop(active):not(:only-child):not(.vertical), spinbutton.vertical.linked > spinbutton:not(.vertical) + text:drop(active):not(:only-child), spinbutton.vertical.linked > text + text:drop(active):not(:only-child),
 .linked.vertical > spinbutton:not(.vertical) + entry:drop(active):not(:only-child),
 spinbutton.vertical.linked > text + entry:drop(active):not(:only-child), .linked.vertical >
@@ -1798,7 +1798,7 @@ entry:focus:not(:only-child) + entry,
 entry:focus:not(:only-child) + button,
 .linked.vertical >
 entry:focus:not(:only-child) + combobox > box > button.combo {
-  border-top-color: #395f5f; }
+  border-top-color: #1d2129; }
 .linked.vertical > spinbutton:drop(active):not(:only-child):not(.vertical) + spinbutton:not(.vertical), spinbutton.vertical.linked > text:drop(active):not(:only-child) + spinbutton:not(.vertical), spinbutton.vertical.linked > spinbutton:drop(active):not(:only-child):not(.vertical) + text, spinbutton.vertical.linked > text:drop(active):not(:only-child) + text,
 .linked.vertical > spinbutton:drop(active):not(:only-child):not(.vertical) + entry,
 spinbutton.vertical.linked > text:drop(active):not(:only-child) + entry,
@@ -2453,13 +2453,13 @@ infobar {
 
 levelbar.horizontal trough > block {
   min-height: 5px;
-  border-radius: 5px; }
+  border-radius: 0px; }
   levelbar.horizontal trough > block:dir(rtl) {
-    border-radius: 0 5px 5px 0; }
+    border-radius: 0 0px 0px 0; }
   levelbar.horizontal trough > block:dir(ltr) {
-    border-radius: 5px 0 0 5px; }
+    border-radius: 0px 0 0 0px; }
   levelbar.horizontal trough > block.empty, levelbar.horizontal trough > block.full {
-    border-radius: 5px; }
+    border-radius: 0px; }
 levelbar.horizontal.discrete trough > block {
   min-height: 2px;
   margin: 1px;
@@ -2471,7 +2471,7 @@ levelbar.horizontal.discrete trough > block {
     border-radius: 0 2px 2px 0; }
 levelbar.vertical trough > block {
   min-width: 5px;
-  border-radius: 5px; }
+  border-radius: 0px; }
 levelbar.vertical.discrete > trough > block {
   min-width: 2px;
   margin: 1px 0;
@@ -2484,8 +2484,8 @@ levelbar > trough > block {
     border-color: #c3674a;
     background-color: #c3674a; }
   levelbar > trough > block.high, levelbar > trough > block:not(.empty) {
-    border-color: #a3be8c;
-    background-color: #a3be8c; }
+    border-color: #5e81ac;
+    background-color: #5e81ac; }
   levelbar > trough > block.full {
     border-color: #bf616a;
     background-color: #bf616a; }
@@ -3299,7 +3299,7 @@ progressbar {
 progressbar trough, scale trough, scale fill {
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
-  border-radius: 3px;
+  border-radius: 0px;
   margin: 0; }
   progressbar trough:disabled, scale trough:disabled, scale fill:disabled {
     background-color: rgba(255, 255, 255, 0.06); }
@@ -3311,15 +3311,15 @@ progressbar trough, scale trough, scale fill {
 
 progressbar progress, scale highlight {
   border: none;
-  background-color: #8fbcbb;
-  border-radius: 3px;
+  background-color: #687591;
+  border-radius: 0px;
   margin: 0; }
   progressbar progress:disabled, scale highlight:disabled {
     border: none;
     background-color: rgba(255, 255, 255, 0.1); }
   progressbar progress:backdrop, progressbar:backdrop progress, scale highlight:backdrop, progressbar progress:active:backdrop, progressbar:backdrop progress:active, scale highlight:active:backdrop {
-    border-color: #9fc6c5;
-    background-color: #9fc6c5; }
+    border-color: #576279;
+    background-color: #576279; }
     progressbar progress:backdrop:disabled, progressbar:backdrop progress:disabled, scale highlight:backdrop:disabled, progressbar progress:active:backdrop:disabled, progressbar:backdrop progress:active:disabled, scale highlight:active:backdrop:disabled {
       background-color: rgba(255, 255, 255, 0.06); }
 
@@ -3343,7 +3343,7 @@ scale {
     transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition-property: background, border, box-shadow; }
     scale slider:active {
-      background-color: #8fbcbb; }
+      background-color: #687591; }
       scale slider:active:disabled {
         background-color: #303642;
         box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.05); }
@@ -3360,7 +3360,7 @@ scale {
   scale.fine-tune fill,
   scale.fine-tune highlight,
   scale.fine-tune trough {
-    border-radius: 5px; }
+    border-radius: 0px; }
   scale trough {
     outline-offset: 2px;
     outline-color: transparent; }
@@ -3379,18 +3379,18 @@ scale {
     border-width: 0px;
     border-style: solid;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.507), 0px 0px 5px rgba(0, 0, 0, 0.5); }
     scale slider:hover {
-      box-shadow: 0px 0px 10px #8fbcbb; }
+      box-shadow: 0px 0px 10px #5e81ac; }
     scale slider:active {
       border-color: #373e4c; }
     scale slider:disabled {
-      background-color: #568f8e;
+      background-color: #373e4c;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
     scale slider:backdrop, scale slider:backdrop:disabled {
       transition: 200ms ease-out;
-      background-color: #568f8e;
+      background-color: #373e4c;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
     row:selected scale slider:disabled, row:selected scale slider {
       border-color: #373e4c; }
@@ -3441,7 +3441,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3450,7 +3450,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3459,7 +3459,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3468,7 +3468,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3477,7 +3477,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3486,7 +3486,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3495,7 +3495,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3504,7 +3504,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3513,7 +3513,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3522,7 +3522,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3531,7 +3531,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3540,7 +3540,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3549,7 +3549,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3558,7 +3558,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3567,7 +3567,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3576,7 +3576,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3585,7 +3585,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3594,7 +3594,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3603,7 +3603,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3612,7 +3612,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3621,7 +3621,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3630,7 +3630,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3639,7 +3639,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3648,7 +3648,7 @@ scale {
     min-width: 16px;
     margin: -7px;
     border-radius: 0px;
-    background-color: #7fb2b1;
+    background-color: #576279;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.3); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
