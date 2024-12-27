@@ -4,7 +4,7 @@
 .sidebar {
   border-style: none;
   border-width: 0;
-  background-color: $red;
+  background-color: $sidebar_bg_color;
 
   @at-root %sidebar_left,
   &:dir(ltr),
