@@ -2579,6 +2579,13 @@ row {
     background-color: rgba(76, 86, 106, 0.5); }
   row.activatable:selected:backdrop {
     background-color: rgba(76, 86, 106, 0.6); }
+  row.activatable.button {
+    font-weight: normal;
+    color: #d8dee9;
+    background-color: #373e4c;
+    text-shadow: none;
+    border: 1px solid #1f232b;
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   row .view, row iconview {
     background-color: transparent; }
 
@@ -2646,6 +2653,8 @@ columnview.complex.data-table > listview > row > cell {
 
 .boxed-list {
   border: 1px solid #1f232b; }
+  .boxed-list-separate {
+    background-color: transparent; }
 
 /*********
  * Menus *
