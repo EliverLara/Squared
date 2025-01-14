@@ -2452,10 +2452,10 @@ infobar {
   background-color: transparent; }
 
 banner revealer widget {
-  background: #81a1c1;
+  background: #7b9cb5;
   padding: 5px; }
   banner revealer widget, banner revealer widget:backdrop {
-    color: #d8dee9; }
+    color: #BCC4C9; }
 
 levelbar.horizontal trough > block {
   min-height: 5px;
@@ -2579,6 +2579,13 @@ row {
     background-color: rgba(80, 106, 104, 0.5); }
   row.activatable:selected:backdrop {
     background-color: rgba(80, 106, 104, 0.6); }
+  row.activatable.button {
+    font-weight: normal;
+    color: #bcc3c9;
+    background-color: #252B2E;
+    text-shadow: none;
+    border: 1px solid #0b0d0f;
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   row .view, row iconview {
     background-color: transparent; }
 
@@ -2646,6 +2653,8 @@ columnview.complex.data-table > listview > row > cell {
 
 .boxed-list {
   border: 1px solid #0b0d0f; }
+  .boxed-list-separate {
+    background-color: transparent; }
 
 /*********
  * Menus *
