@@ -75,7 +75,7 @@ $info_color: $lime;
 $question_color: $cyan;
 
 // Panel colors
-$panel_bg_color: if($variant == 'light', transparentize($bg_color, 0.3), transparentize(darken($bg_color, 3%), 0.3));
+$panel_bg_color: if($variant == 'light', transparentize($bg_color, 0.3), darken($bg_color, 1%));
 $panel_fg_color: $fg_color;
 $panel_borders_color: transparentize(black, 0.8);
 
