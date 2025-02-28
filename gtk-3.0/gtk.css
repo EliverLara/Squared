@@ -5590,27 +5590,27 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: #BCC4C9; }
 
 #XfceNotifyWindow {
-  background-color: #2a2f3a;
+  background-color: #161b1d;
   border-radius: 1px;
   border-width: 1px;
-  border: 1px solid #1f232b;
-  color: #d8dee9;
+  border: 1px solid #0b0d0f;
+  color: #BCC4C9;
   padding: 40px; }
   #XfceNotifyWindow:hover, #XfceNotifyWindow:focus {
-    background-color: #2e3440; }
+    background-color: #1A2023; }
   #XfceNotifyWindow label, #XfceNotifyWindow image {
-    color: #d8dee9; }
+    color: #BCC4C9; }
   #XfceNotifyWindow button {
     font-weight: normal;
-    color: #d8dee9;
-    border: 1px solid #1f232b;
-    background-color: #373e4c;
+    color: #bcc3c9;
+    border: 1px solid #0b0d0f;
+    background-color: #252B2E;
     text-shadow: none;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
     #XfceNotifyWindow button:hover {
-      color: #d8dee9;
-      outline-color: rgba(216, 222, 233, 0.3);
-      background-color: #4c566a;
+      color: #bcc3c9;
+      outline-color: rgba(188, 195, 201, 0.3);
+      background-color: #506A68;
       text-shadow: none;
       box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
 
