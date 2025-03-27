@@ -170,7 +170,7 @@
     
 
     color: $selected_fg_color !important;
-    background-color: lighten($btn_bg, 4%) !important;
+    background-color: lighten($btn_bg, 4%);
     box-shadow: none !important;
   }
   @else if $t==active {
