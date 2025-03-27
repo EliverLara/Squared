@@ -169,8 +169,8 @@
   //
     
 
-    color: $selected_fg_color !important;
-    background-color: lighten($btn_bg, 5%) !important;
+    color: $selected_fg_color;
+    background-color: lighten($btn_bg, 5%);
     box-shadow: none !important;
   }
   @else if $t==active {

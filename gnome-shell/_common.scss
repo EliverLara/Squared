@@ -2250,7 +2250,8 @@ $base_padding: 6px;
 
   &:checked { 
     @include button(active, $selected_bg_color);
-    color: $selected_fg_color;
+    &:hover { @include button(active, transparentize(lighten($selected_bg_color, 6%), 0.4)); }
+    &, &:hover { color: $selected_fg_color; }
   }
 
   &, &:hover, &:checked { border: none; }
@@ -2285,13 +2286,21 @@ $base_padding: 6px;
 
 
   & .quick-toggle-arrow {
+    background-color: lighten($btn_bg, 3%);
    // padding: $base_padding $base_padding*1.75;
     border-width: 0;
     &:checked { 
       @include button(active, $selected_bg_color);
-      color: $selected_fg_color;
-      border-width: 0;
+      &:hover { @include button(active, transparentize(lighten($selected_bg_color, 5%), 0.1)); }
+      &, &:hover {
+        color: $selected_fg_color;
+        border-width: 0;
+      }
     }
+    &:hover {
+      background-color: lighten($btn_bg, 5%);
+    }
+  
   
     &:ltr { border-radius: 0 1px 1px 0; }
     &:rtl { border-radius: 1px 0 0 1px; }
