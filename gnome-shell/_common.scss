@@ -819,7 +819,7 @@ $slider_size: 16px;
   transition-duration: 500ms;
   font-weight: bold;
   height: 2.1em;
-  padding: 0px 0px;
+  padding: 0px;
 
   &.unlock-screen,
   &.login-screen,
@@ -852,7 +852,6 @@ $slider_size: 16px;
     -natural-hpadding: 12px;
     -minimum-hpadding: 6px;
     @include button(normal);
-    margin: 4px;
     transition-duration: 100ms;
     &, &.clock-display .clock{
       border-radius: 0;
