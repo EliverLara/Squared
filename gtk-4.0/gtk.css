@@ -1554,7 +1554,11 @@ messagedialog, .messagedialog, .dialog {
       color: #d8dee9;
       border-radius: 1px; }
 
-.messagedialog .message-area, .messagedialog .response-area, .dialog .dialog-action-area {
+.messagedialog .message-area,
+.messagedialog .response-area,
+.dialog .dialog-action-area,
+.alert.floating .response-area,
+.alert.floating .body-scrolled-window {
   padding: 26px; }
 
 filechooser .dialog-action-box {
