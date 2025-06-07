@@ -999,9 +999,9 @@ toggle-group {
     border-radius: 0;
     padding: 0 4px; }
     toggle-group toggle:checked {
-      background-color: #506A68; }
+      background-color: #687591; }
       toggle-group toggle:checked, toggle-group toggle:checked label {
-        color: #fefefe; }
+        color: #d8dee9; }
 
 /************
  * Calendar *

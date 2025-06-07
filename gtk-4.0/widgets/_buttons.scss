@@ -555,7 +555,7 @@ toggle-group{
   toggle {
     border-radius: 0;
     &:checked { 
-      background-color: $selected_bg_color; 
+      background-color: lighten($selected_bg_color, 13%); 
       &, label { color: $selected_fg_color; }
     }
     padding: 0 4px;
