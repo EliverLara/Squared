@@ -547,3 +547,17 @@ notebook, list, popover {
     box-shadow: none;
   }
 }
+
+// Gnome 48 toggle groups (screens config)
+toggle-group{
+  padding: 3px;
+  border-radius: 0;
+  toggle {
+    border-radius: 0;
+    &:checked { 
+      background-color: $selected_bg_color; 
+      &, label { color: $selected_fg_color; }
+    }
+    padding: 0 4px;
+  }
+}
