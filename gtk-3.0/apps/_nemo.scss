@@ -27,8 +27,8 @@
             min-height: 28px;
             padding: 5px;
             color: $fg_color;
-            border: 1px solid $blue;
-            border-radius: 3px;
+            border: 1px solid $selected_bg_color;
+            border-radius: 1px;
             &:selected {
                 background-color: $selected_bg_color;
                 color: $selected_fg_color;

@@ -5,7 +5,7 @@
   .entry {
     background: $bg_color;
     color: $fg_color;
-    border-color: $blue;
+    border-color: $selected_bg_color;
     &:selected {
       background: $selected_bg_color;
       color: $selected_fg_color;

@@ -6111,8 +6111,8 @@ ConversationListView {
   min-height: 28px;
   padding: 5px;
   color: #BCC4C9;
-  border: 1px solid #7b9cb5;
-  border-radius: 3px; }
+  border: 1px solid #506A68;
+  border-radius: 1px; }
   .nemo-window .nemo-window-pane widget.entry:selected {
     background-color: #506A68;
     color: #fefefe; }
@@ -6149,7 +6149,7 @@ ConversationListView {
 .caja-notebook .entry {
   background: #1A2023;
   color: #BCC4C9;
-  border-color: #7b9cb5; }
+  border-color: #506A68; }
   .caja-notebook .entry:selected {
     background: #506A68;
     color: #fefefe; }
