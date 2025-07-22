@@ -1003,6 +1003,21 @@ toggle-group {
       toggle-group toggle:checked, toggle-group toggle:checked label {
         color: #fefefe; }
 
+button.accent-button, button.accent-button:backdrop {
+  min-height: 22px;
+  min-width: 22px;
+  padding: 3px;
+  border-radius: 0px;
+  background: var(--accent-bg-color);
+  outline: none;
+  background-clip: content-box;
+  box-shadow: none;
+  border: none; }
+button.accent-button:hover {
+  box-shadow: 0 0 0 3px #293337; }
+button.accent-button:checked, button.accent-button:checked:backdrop {
+  box-shadow: 0 0 0 3px var(--accent-bg-color); }
+
 /************
  * Calendar *
  ***********/
