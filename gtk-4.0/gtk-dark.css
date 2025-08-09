@@ -6011,4 +6011,31 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
   border-bottom-width: 0;
   font-weight: bold; }
 
+button.colorpad {
+  color: @colorpad_fg_color; }
+  button.colorpad, button.colorpad:backdrop, button.colorpad:hover, button.colorpad:hover:backdrop, button.colorpad:active, button.colorpad:active:backdrop, button.colorpad:checked, button.colorpad:checked:backdrop {
+    background-color: @colorpad_color; }
+  button.colorpad:hover {
+    filter: brightness(93%); }
+  button.colorpad:active {
+    filter: brightness(86%); }
+  button.colorpad:checked {
+    filter: brightness(100%);
+    box-shadow: 0px 0px 0px 1.5px #506A68, inset 0px -3px 0px 0px @colorpad_fg_color; }
+
+button.colorsetter {
+  color: @colorsetter_fg_color; }
+  button.colorsetter, button.colorsetter:backdrop, button.colorsetter:hover, button.colorsetter:hover:backdrop, button.colorsetter:active, button.colorsetter:active:backdrop, button.colorsetter:checked, button.colorsetter:checked:backdrop {
+    background-color: @colorsetter_color; }
+  button.colorsetter:hover {
+    filter: brightness(93%); }
+  button.colorsetter:active {
+    filter: brightness(86%); }
+  button.colorsetter:checked {
+    filter: brightness(100%); }
+
+.overlay_toolbar, .overlay_toolbar_scrollable {
+  background: #293337;
+  padding: 10px; }
+
 /*# sourceMappingURL=gtk-dark.css.map */
