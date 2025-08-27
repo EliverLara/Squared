@@ -119,4 +119,14 @@ banner revealer widget {
   background: $suggested_bg_color;
   &, &:backdrop { color: $fg_color; }
   padding: 5px;
+  button.suggested-action {
+    @include button(undecorated);
+    background-color: transparentize(#000, 0.8);
+    &:hover, &:active {
+      background-color: transparentize(#000, 0.6);
+    }
+    &:backdrop {
+      background-color: transparentize(#000, 0.7);
+    }
+  }
 }
