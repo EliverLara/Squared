@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Squared
+Name=Squared-nord
 Comment=A dark theme with fancy colors
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Squared
-MetacityTheme=Squared
+GtkTheme=Squared-nord
+MetacityTheme=Squared-nord
 IconTheme=Boston
 ButtonLayout=:minimize,maximize,close
