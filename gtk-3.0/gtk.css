@@ -6088,11 +6088,11 @@ ConversationListView {
 
 .nemo-window .places-treeview {
   -NemoPlacesTreeView-disk-full-bg-color: #4b5569;
-  -NemoPlacesTreeView-disk-full-fg-color: #ebcb8b;
+  -NemoPlacesTreeView-disk-full-fg-color: #81a1c1;
   -GtkTreeView-vertical-separator: 10; }
   .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover,
   .nemo-window .places-treeview iconview.cell:hover {
-    background: rgba(37, 42, 51, 0.7); }
+    background: rgba(216, 222, 233, 0.05); }
   .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
   .nemo-window .places-treeview iconview.cell:selected {
     background: #4c566a;
