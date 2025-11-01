@@ -572,13 +572,17 @@ button.suggested-action {
   color: white;
   border-radius: 1px;
   background: #7b9cb5; }
+  button.suggested-action label {
+    color: #fff; }
   .selection-mode button.titlebutton, button.suggested-action.flat {
     box-shadow: none;
     color: white;
     border-radius: 1px;
     background: #7b9cb5; }
+    .selection-mode button.titlebutton label, button.suggested-action.flat label {
+      color: #fff; }
   button.suggested-action:hover {
-    opacity: 0.7; }
+    opacity: 0.9; }
   button.suggested-action:active, button.suggested-action:checked {
     color: white;
     background-color: #506A68;
@@ -624,8 +628,9 @@ button.suggested-action {
   button.suggested-action:disabled {
     color: white;
     border-color: #0b0d0f;
-    background-color: #0b0d0f;
+    background-color: #7b9cb5;
     text-shadow: none;
+    opacity: 0.7;
     border-color: #0b0d0f; }
     button.suggested-action:disabled:active, button.suggested-action:disabled:checked {
       color: rgba(254, 254, 254, 0.7);
@@ -680,13 +685,17 @@ button.destructive-action {
   color: white;
   border-radius: 1px;
   background: #ba706e; }
+  button.destructive-action label {
+    color: #fff; }
   button.destructive-action.flat {
     box-shadow: none;
     color: white;
     border-radius: 1px;
     background: #7b9cb5; }
+    button.destructive-action.flat label {
+      color: #fff; }
   button.destructive-action:hover {
-    opacity: 0.7; }
+    opacity: 0.9; }
   button.destructive-action:active, button.destructive-action:checked {
     color: white;
     background-color: #506A68;
@@ -732,8 +741,9 @@ button.destructive-action {
   button.destructive-action:disabled {
     color: white;
     border-color: #0b0d0f;
-    background-color: #0b0d0f;
+    background-color: #ba706e;
     text-shadow: none;
+    opacity: 0.7;
     border-color: #0b0d0f; }
     button.destructive-action:disabled:active, button.destructive-action:disabled:checked {
       color: rgba(254, 254, 254, 0.7);
