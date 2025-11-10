@@ -4009,14 +4009,14 @@ placessidebar row {
       placessidebar row:drop(active):not(:disabled):selected, placessidebar row:drop(active):not(:disabled):selected label, placessidebar row:drop(active):not(:disabled):selected image {
         color: #d8dee9; }
 
-.sidebar-pane .bottom-bar {
+.sidebar-pane, .sidebar-pane .bottom-bar {
   background-color: #2e3440; }
-  .sidebar-pane .bottom-bar button.toggle:not(.image-button) {
-    background-color: transparent;
-    border-radius: 0px;
-    border: none; }
-    .sidebar-pane .bottom-bar button.toggle:not(.image-button) .view, .sidebar-pane .bottom-bar button.toggle:not(.image-button) iconview {
-      background-color: transparent; }
+.sidebar-pane .bottom-bar button {
+  background-color: transparent;
+  border-radius: 0px;
+  border: none; }
+  .sidebar-pane .bottom-bar button .view, .sidebar-pane .bottom-bar button iconview {
+    background-color: transparent; }
 
 spinbutton {
   font-feature-settings: "tnum"; }
@@ -5530,15 +5530,10 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .color-light.timed label, .color-light .event-popover label {
   color: #d8dee9;
   opacity: 1; }
-.color-light label {
-  color: #2e3440;
-  opacity: 1; }
 
 /*******************
  * Calendar sidebar *
 ********************/
-datechooser, datechooser:backdrop {
-  background-color: #2e3440; }
 datechooser .circular.day.text-button {
   padding: 6px;
   min-height: 22px;
@@ -5556,15 +5551,26 @@ datechooser .circular.day.text-button {
     font-weight: bold;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
     font-weight: bold; }
+datechooser .weekday, datechooser .weeknum {
+  color: #838995; }
+datechooser .weeknum {
+  background-color: #3b4252; }
+datechooser .current-week {
+  background-color: rgba(131, 137, 149, 0.1); }
 
 agenda-view list.background {
   padding: 8px; }
-  agenda-view list.background, agenda-view list.background:backdrop {
-    background-color: #2e3440; }
   agenda-view list.background .caption-heading, agenda-view list.background .dim-label.no-events, agenda-view list.background label.no-events.separator, agenda-view list.background .titlebar .no-events.subtitle, .titlebar agenda-view list.background .no-events.subtitle,
   agenda-view list.background headerbar .no-events.subtitle,
   headerbar agenda-view list.background .no-events.subtitle {
     color: #d8dee9; }
+
+datechooser, datechooser:backdrop,
+agenda-view list.background,
+agenda-view list.background:backdrop,
+.calendar-list,
+.calendar-list:backdrop {
+  background-color: #2e3440; }
 
 /******************************
  * Gnome system monitor graph *
