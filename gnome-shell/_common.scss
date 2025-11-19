@@ -1308,7 +1308,7 @@ $slider_size: 16px;
   height: 30px;
   width: 30px;
   //border: 2px solid darken($borders_color, 4%);
-  box-shadow: 0px 0px 10px $borders_color;
+  box-shadow: 0px 0px 3px transparentize($borders_color, 0.7);
 
   & StIcon { icon-size: 23px; }
 

@@ -1116,7 +1116,7 @@ StScrollBar {
   padding: 2px;
   height: 30px;
   width: 30px;
-  box-shadow: 0px 0px 10px #060809; }
+  box-shadow: 0px 0px 3px rgba(6, 8, 9, 0.3); }
   .window-close StIcon {
     icon-size: 23px; }
   .window-close:hover {
