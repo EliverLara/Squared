@@ -5455,6 +5455,9 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
 .nautilus-window .content-pane .top-bar splitbutton.image-button {
   border-radius: 1px; }
+.nautilus-window .content-pane .top-bar button.close:hover, .nautilus-window .content-pane .top-bar button.maximize:hover, .nautilus-window .content-pane .top-bar button.minimize:hover {
+  background-color: transparent;
+  color: transparent; }
 .nautilus-window .content-pane .view, .nautilus-window .content-pane iconview {
   background-color: #1A2023;
   padding: 6px 0px; }
