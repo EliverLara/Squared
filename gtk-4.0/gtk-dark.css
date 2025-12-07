@@ -5460,7 +5460,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: transparent; }
 .nautilus-window .content-pane .view, .nautilus-window .content-pane iconview {
   background-color: #2e3440;
-  padding: 6px 0px; }
+  padding: 10px; }
 .nautilus-window searchbar {
   border-top: 1px solid rgba(0, 0, 0, 0.12); }
 .nautilus-window .searchbar-container {
