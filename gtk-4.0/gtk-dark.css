@@ -265,10 +265,6 @@ popover.background.magnifier > contents, .osd {
     text-shadow: none;
     -gtk-icon-shadow: none; }
 
-*:selected {
-  background: #506A68;
-  color: #fefefe; }
-
 /***********
  * Buttons *
  ***********/
@@ -2752,7 +2748,6 @@ menubar,
 
 menu, .menu, .context-menu {
   font: initial;
-  margin: 4px;
   padding: 2px 0px;
   background: #1d2428;
   border-radius: 1px; }
