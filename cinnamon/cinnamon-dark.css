@@ -79,7 +79,7 @@ stage {
     border: 1px solid rgba(0, 0, 0, 0.4);
     background-color: rgba(255, 255, 255, 0); }
 
-.popup-menu #notification StEntry, #menu-search-entry, .run-dialog-entry, .prompt-dialog-password-entry {
+.popup-menu #notification StEntry, #menu-search-entry, #appmenu-search-entry, .run-dialog-entry, .prompt-dialog-password-entry {
   padding: 7px;
   caret-size: 1px;
   selection-background-color: #506A68;
@@ -90,17 +90,17 @@ stage {
   background-color: #252B2E;
   border: 1px solid #0b0d0f;
   box-shadow: inset 0 2px 4px rgba(37, 43, 46, 0.05); }
-  .popup-menu #notification StEntry:focus, #menu-search-entry:focus, .run-dialog-entry:focus, .prompt-dialog-password-entry:focus, .popup-menu #notification StEntry:hover, #menu-search-entry:hover, .run-dialog-entry:hover, .prompt-dialog-password-entry:hover {
+  .popup-menu #notification StEntry:focus, #menu-search-entry:focus, #appmenu-search-entry:focus, .run-dialog-entry:focus, .prompt-dialog-password-entry:focus, .popup-menu #notification StEntry:hover, #menu-search-entry:hover, #appmenu-search-entry:hover, .run-dialog-entry:hover, .prompt-dialog-password-entry:hover {
     color: #BCC4C9;
     background-color: #252B2E;
     border: 1px solid #506A68;
     box-shadow: 0px 0px 1px 1px #506A68 inset; }
-  .popup-menu #notification StEntry:insensitive, #menu-search-entry:insensitive, .run-dialog-entry:insensitive, .prompt-dialog-password-entry:insensitive {
+  .popup-menu #notification StEntry:insensitive, #menu-search-entry:insensitive, #appmenu-search-entry:insensitive, .run-dialog-entry:insensitive, .prompt-dialog-password-entry:insensitive {
     color: rgba(188, 196, 201, 0.45);
     background-color: #202629;
     border-color: 1px solid #121618;
     box-shadow: inset 0 2px 4px rgba(32, 38, 41, 0.05); }
-  .popup-menu #notification StEntry StIcon.capslock-warning, #menu-search-entry StIcon.capslock-warning, .run-dialog-entry StIcon.capslock-warning, .prompt-dialog-password-entry StIcon.capslock-warning {
+  .popup-menu #notification StEntry StIcon.capslock-warning, #menu-search-entry StIcon.capslock-warning, #appmenu-search-entry StIcon.capslock-warning, .run-dialog-entry StIcon.capslock-warning, .prompt-dialog-password-entry StIcon.capslock-warning {
     icon-size: 16px;
     warning-color: #cc5500;
     padding: 0 4px; }
@@ -1149,6 +1149,93 @@ StScrollBar {
   color: #BCC4C9; }
 
 /* Context menu (at the moment only for favorites) */
+.appmenu-sidebar-button, .appmenu-application-button, .appmenu-application-button-selected, .appmenu-category-button, .appmenu-category-button-selected, .appmenu-category-button-greyed {
+  padding: 7px;
+  spacing: 5px;
+  border-radius: 1px; }
+
+.appmenu-background .popup-menu-content {
+  padding: 0; }
+.appmenu-main-box {
+  spacing: 10px; }
+.appmenu-right-box {
+  spacing: 5px;
+  padding: 10px 10px; }
+.appmenu-categories-applications-box {
+  spacing: 15px; }
+  .appmenu-categories-applications-box:top {
+    padding-top: 5px; }
+.appmenu-applications-box {
+  padding-right: 5px; }
+.appmenu-search-box {
+  spacing: 10px; }
+.appmenu-sidebar {
+  padding: 15px 0px;
+  background-color: #21282c;
+  border-radius: 1px 0 0 0;
+  border-right-width: 1px;
+  border-color: #0b0d0f; }
+  .menu-top .appmenu-sidebar {
+    border-radius: 0 0 0 1px; }
+  .menu-bottom .appmenu-sidebar {
+    border-radius: 1px 0 0 0; }
+  .menu-left .appmenu-sidebar {
+    border-radius: 0; }
+  .menu-right .appmenu-sidebar {
+    border-radius: 0; }
+  .appmenu-sidebar-user-box .user-widget-label {
+    color: #BCC4C9;
+    text-align: center; }
+  .appmenu-sidebar .appmenu-system-button {
+    background-color: #30383c;
+    border: none; }
+    .appmenu-sidebar .appmenu-system-button-lock:hover {
+      background-color: #475358; }
+    .appmenu-sidebar .appmenu-system-button-logout:hover {
+      background-color: #475358; }
+    .appmenu-sidebar .appmenu-system-button-shutdown {
+      color: white;
+      background-color: #a6514f; }
+    .appmenu-sidebar .appmenu-system-button-shutdown:hover {
+      color: white;
+      background-color: #b25f5d; }
+.appmenu-system-box {
+  spacing: 10px; }
+.appmenu-sidebar-button {
+  padding: 4px 7px;
+  margin: 0 10px; }
+  .appmenu-sidebar-button:hover {
+    background-color: #30383c;
+    border-color: #0b0d0f; }
+.appmenu-system-button {
+  padding: 8.4px;
+  border: 1px solid #0b0d0f;
+  border-radius: 9999px;
+  background-color: #30383c; }
+.appmenu-application-button-label {
+  padding: 0; }
+.appmenu-application-button-description {
+  color: rgba(188, 196, 201, 0.45); }
+.appmenu-application-button:highlighted {
+  font-weight: bold; }
+.appmenu-application-button-selected {
+  background-color: #30383c; }
+  .appmenu-application-button-selected:highlighted {
+    font-weight: bold; }
+.appmenu-category-button-label {
+  padding: 0; }
+.appmenu-category-button:hover {
+  background-color: #30383c; }
+.appmenu-category-button-selected {
+  background-color: #30383c; }
+.appmenu-category-button-greyed {
+  color: rgba(188, 196, 201, 0.45);
+  font-style: italic; }
+  .appmenu-category-button-greyed StIcon {
+    opacity: 0.5; }
+.appmenu-search-entry-icon {
+  icon-size: 1em; }
+
 .info-osd {
   text-align: center;
   font-weight: bold;
@@ -1628,7 +1715,7 @@ StScrollBar {
   background-color: rgba(0, 0, 0, 0);
   border-radius: 0px; }
 
-.dialog-list .dialog-list-box .dialog-list-item .dialog-list-item-description, .message-dialog-content .message-dialog-caption, .run-dialog-description, .prompt-dialog-error-label, .prompt-dialog-info-label, .prompt-dialog-null-label {
+.appmenu-application-button-description, .dialog-list .dialog-list-box .dialog-list-item .dialog-list-item-description, .message-dialog-content .message-dialog-caption, .run-dialog-description, .prompt-dialog-error-label, .prompt-dialog-info-label, .prompt-dialog-null-label {
   font-weight: 400;
   font-size: 0.818em; }
 
@@ -1636,7 +1723,7 @@ StScrollBar {
   font-weight: 800;
   font-size: 1.364em; }
 
-.message-dialog-content .message-dialog-title.lightweight, .media-keys-osd, .workspace-switch-osd {
+.appmenu-sidebar-user-box .user-widget-label, .message-dialog-content .message-dialog-title.lightweight, .media-keys-osd, .workspace-switch-osd {
   font-weight: 700;
   font-size: 1.182em; }
 
