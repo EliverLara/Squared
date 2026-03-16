@@ -1419,13 +1419,16 @@ $slider_size: 16px;
 
   %search-section-content-item {  
     background-color: transparent;
+    border-radius: 1px;
     &:focus,
     &:hover,
     &:selected {
       background-color: transparentize($osd_fg_color, .9);
       transition-duration: 200ms;
     }
-  
+    
+    &:focus { box-shadow: 0px 0px 2px 2px inset $blue !important; }
+    
     &:active,
     &:checked {
       background-color: transparentize(darken($osd_bg_color, 10%), .1);
@@ -1543,6 +1546,10 @@ $slider_size: 16px;
       transition-duration: 0ms;
       border-image: none;
       background-image: none;
+    }
+
+    &:focus {
+      box-shadow: 0px 0px 2px 2px inset $blue !important;
     }
 
     &:active,
